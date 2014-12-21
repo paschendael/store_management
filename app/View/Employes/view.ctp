@@ -36,11 +36,6 @@
 			<?php echo h($employe['Employe']['other_details']); ?>
 			&nbsp;
 		</dd>
-		<dt><?php echo __('User Id'); ?></dt>
-		<dd>
-			<?php echo h($employe['Employe']['user_id']); ?>
-			&nbsp;
-		</dd>
 	</dl>
 </div>
 <div class="actions">

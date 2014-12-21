@@ -9,8 +9,6 @@
 		echo $this->Form->input('date_start');
 		echo $this->Form->input('date_end');
 		echo $this->Form->input('other_details');
-		echo $this->Form->input('user_id');
-		echo $this->Form->input('Schedule');
 	?>
 	</fieldset>
 <?php echo $this->Form->end(__('Submit')); ?>
