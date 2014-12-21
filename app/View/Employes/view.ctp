@@ -36,7 +36,7 @@
 			<?php echo h($employe['Employe']['other_details']); ?>
 			&nbsp;
 		</dd>
-                <dt><?php echo __('filename'); ?></dt>
+                <dt><?php echo __('Photo'); ?></dt>
 		<dd>
                     
                     
