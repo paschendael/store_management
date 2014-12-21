@@ -66,8 +66,8 @@ class EmailConfig {
   public $gmail = array(
     'host' => 'ssl://smtp.gmail.com',
     'port' => 465,
-    'username' => 'your@gmail.com',
-    'password' => 'password',
+    'username' => 'storemanagement.benjamin.pelch@gmail.com',
+    'password' => 'StoreManagement$1',
     'transport' => 'Smtp'
     );
 

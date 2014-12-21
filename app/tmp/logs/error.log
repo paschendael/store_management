@@ -1425,3 +1425,465 @@ Request URL: /benjamin_pelchat-tp2/fra/uploads/image12.PNG
 Stack Trace:
 #0 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
+2014-12-21 20:03:17 Error: [SocketException] You need to specify at least one destination for to, cc or bcc.
+Request URL: /benjamin_pelchat-tp2/sign-up
+Stack Trace:
+#0 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\app\Controller\UsersController.php(31): CakeEmail->send('Hi,, Your Passw...')
+#1 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\app\Controller\UsersController.php(100): UsersController->send_mail(NULL, NULL, NULL)
+#2 [internal function]: UsersController->add()
+#3 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#4 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#5 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#6 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2014-12-21 20:07:58 Error: [NotFoundException] Utilisateur invalide
+Request URL: /benjamin_pelchat-tp2/users/delete/
+Stack Trace:
+#0 [internal function]: UsersController->delete()
+#1 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#2 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#3 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-12-21 20:08:11 Error: [NotFoundException] Utilisateur invalide
+Request URL: /benjamin_pelchat-tp2/users/delete/
+Stack Trace:
+#0 [internal function]: UsersController->delete()
+#1 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#2 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#3 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-12-21 20:12:19 Error: [NotFoundException] Utilisateur invalide
+Request URL: /benjamin_pelchat-tp2/users/delete/
+Stack Trace:
+#0 [internal function]: UsersController->delete()
+#1 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#2 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#3 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-12-21 20:18:36 Error: Fatal Error (4): syntax error, unexpected '[' in [C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\app\View\Users\index.ctp, line 64]
+2014-12-21 20:18:36 Error: [FatalErrorException] syntax error, unexpected '['
+Request URL: /benjamin_pelchat-tp2/users
+Stack Trace:
+#0 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\lib\Cake\Error\ErrorHandler.php(205): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\Users\\Miaw\\D...', 64)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\Users\\Miaw\\D...', 64, Array)
+#2 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\Users\\Miaw\\D...', 64, Array)
+#3 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-12-21 20:21:45 Error: [NotFoundException] Utilisateur invalide
+Request URL: /benjamin_pelchat-tp2/users/delete/
+Stack Trace:
+#0 [internal function]: UsersController->delete()
+#1 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#2 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#3 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-12-21 20:22:12 Error: [NotFoundException] Utilisateur invalide
+Request URL: /benjamin_pelchat-tp2/users/delete/3
+Stack Trace:
+#0 [internal function]: UsersController->delete('3')
+#1 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#2 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#3 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-12-21 20:24:29 Error: [NotFoundException] Utilisateur invalide
+Request URL: /benjamin_pelchat-tp2/users/delete/
+Stack Trace:
+#0 [internal function]: UsersController->delete()
+#1 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#2 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#3 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-12-21 20:25:24 Error: [NotFoundException] Utilisateur invalide
+Request URL: /benjamin_pelchat-tp2/users/delete/
+Stack Trace:
+#0 [internal function]: UsersController->delete()
+#1 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#2 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#3 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-12-21 20:26:13 Error: [NotFoundException] Utilisateur invalide
+Request URL: /benjamin_pelchat-tp2/users/delete/
+Stack Trace:
+#0 [internal function]: UsersController->delete()
+#1 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#2 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#3 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-12-21 20:27:08 Error: Fatal Error (4): syntax error, unexpected '$id' (T_VARIABLE) in [C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\app\View\Users\index.ctp, line 65]
+2014-12-21 20:27:08 Error: [FatalErrorException] syntax error, unexpected '$id' (T_VARIABLE)
+Request URL: /benjamin_pelchat-tp2/users
+Stack Trace:
+#0 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\lib\Cake\Error\ErrorHandler.php(205): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\Users\\Miaw\\D...', 65)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\Users\\Miaw\\D...', 65, Array)
+#2 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\Users\\Miaw\\D...', 65, Array)
+#3 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-12-21 20:27:29 Error: [NotFoundException] Utilisateur invalide
+Request URL: /benjamin_pelchat-tp2/users/delete/
+Stack Trace:
+#0 [internal function]: UsersController->delete()
+#1 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#2 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#3 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-12-21 20:29:16 Error: [NotFoundException] Utilisateur invalide
+Request URL: /benjamin_pelchat-tp2/users/delete/
+Stack Trace:
+#0 [internal function]: UsersController->delete()
+#1 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#2 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#3 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-12-21 20:32:16 Error: Fatal Error (4): syntax error, unexpected end of file in [C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\app\View\Users\index.ctp, line 40]
+2014-12-21 20:32:16 Error: [FatalErrorException] syntax error, unexpected end of file
+Request URL: /benjamin_pelchat-tp2/fra/users
+Stack Trace:
+#0 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\lib\Cake\Error\ErrorHandler.php(205): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\Users\\Miaw\\D...', 40)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\Users\\Miaw\\D...', 40, Array)
+#2 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\Users\\Miaw\\D...', 40, Array)
+#3 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-12-21 20:32:20 Error: Fatal Error (4): syntax error, unexpected end of file in [C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\app\View\Users\index.ctp, line 40]
+2014-12-21 20:32:20 Error: [FatalErrorException] syntax error, unexpected end of file
+Request URL: /benjamin_pelchat-tp2/users
+Stack Trace:
+#0 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\lib\Cake\Error\ErrorHandler.php(205): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\Users\\Miaw\\D...', 40)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\Users\\Miaw\\D...', 40, Array)
+#2 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\Users\\Miaw\\D...', 40, Array)
+#3 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-12-21 20:33:21 Error: Fatal Error (4): syntax error, unexpected end of file in [C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\app\View\Users\index.ctp, line 41]
+2014-12-21 20:33:21 Error: [FatalErrorException] syntax error, unexpected end of file
+Request URL: /benjamin_pelchat-tp2/users
+Stack Trace:
+#0 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\lib\Cake\Error\ErrorHandler.php(205): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\Users\\Miaw\\D...', 41)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\Users\\Miaw\\D...', 41, Array)
+#2 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\Users\\Miaw\\D...', 41, Array)
+#3 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-12-21 20:33:22 Error: Fatal Error (4): syntax error, unexpected end of file in [C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\app\View\Users\index.ctp, line 41]
+2014-12-21 20:33:22 Error: [FatalErrorException] syntax error, unexpected end of file
+Request URL: /benjamin_pelchat-tp2/users
+Stack Trace:
+#0 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\lib\Cake\Error\ErrorHandler.php(205): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\Users\\Miaw\\D...', 41)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\Users\\Miaw\\D...', 41, Array)
+#2 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\Users\\Miaw\\D...', 41, Array)
+#3 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-12-21 20:33:22 Error: Fatal Error (4): syntax error, unexpected end of file in [C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\app\View\Users\index.ctp, line 41]
+2014-12-21 20:33:22 Error: [FatalErrorException] syntax error, unexpected end of file
+Request URL: /benjamin_pelchat-tp2/users
+Stack Trace:
+#0 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\lib\Cake\Error\ErrorHandler.php(205): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\Users\\Miaw\\D...', 41)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\Users\\Miaw\\D...', 41, Array)
+#2 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\Users\\Miaw\\D...', 41, Array)
+#3 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-12-21 20:33:23 Error: Fatal Error (4): syntax error, unexpected end of file in [C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\app\View\Users\index.ctp, line 41]
+2014-12-21 20:33:23 Error: [FatalErrorException] syntax error, unexpected end of file
+Request URL: /benjamin_pelchat-tp2/users
+Stack Trace:
+#0 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\lib\Cake\Error\ErrorHandler.php(205): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\Users\\Miaw\\D...', 41)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\Users\\Miaw\\D...', 41, Array)
+#2 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\Users\\Miaw\\D...', 41, Array)
+#3 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-12-21 20:33:24 Error: Fatal Error (4): syntax error, unexpected end of file in [C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\app\View\Users\index.ctp, line 41]
+2014-12-21 20:33:24 Error: [FatalErrorException] syntax error, unexpected end of file
+Request URL: /benjamin_pelchat-tp2/users
+Stack Trace:
+#0 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\lib\Cake\Error\ErrorHandler.php(205): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\Users\\Miaw\\D...', 41)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\Users\\Miaw\\D...', 41, Array)
+#2 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\Users\\Miaw\\D...', 41, Array)
+#3 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-12-21 20:34:12 Error: Fatal Error (4): syntax error, unexpected end of file in [C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\app\View\Users\index.ctp, line 41]
+2014-12-21 20:34:12 Error: [FatalErrorException] syntax error, unexpected end of file
+Request URL: /benjamin_pelchat-tp2/users
+Stack Trace:
+#0 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\lib\Cake\Error\ErrorHandler.php(205): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\Users\\Miaw\\D...', 41)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\Users\\Miaw\\D...', 41, Array)
+#2 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\Users\\Miaw\\D...', 41, Array)
+#3 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-12-21 20:34:14 Error: Fatal Error (4): syntax error, unexpected end of file in [C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\app\View\Users\index.ctp, line 41]
+2014-12-21 20:34:14 Error: [FatalErrorException] syntax error, unexpected end of file
+Request URL: /benjamin_pelchat-tp2/users
+Stack Trace:
+#0 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\lib\Cake\Error\ErrorHandler.php(205): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\Users\\Miaw\\D...', 41)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\Users\\Miaw\\D...', 41, Array)
+#2 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\Users\\Miaw\\D...', 41, Array)
+#3 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-12-21 20:35:50 Error: Fatal Error (4): syntax error, unexpected end of file in [C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\app\View\Users\index.ctp, line 54]
+2014-12-21 20:35:50 Error: [FatalErrorException] syntax error, unexpected end of file
+Request URL: /benjamin_pelchat-tp2/users
+Stack Trace:
+#0 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\lib\Cake\Error\ErrorHandler.php(205): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\Users\\Miaw\\D...', 54)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\Users\\Miaw\\D...', 54, Array)
+#2 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\Users\\Miaw\\D...', 54, Array)
+#3 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-12-21 20:36:23 Error: Fatal Error (4): syntax error, unexpected end of file in [C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\app\View\Users\index.ctp, line 57]
+2014-12-21 20:36:23 Error: [FatalErrorException] syntax error, unexpected end of file
+Request URL: /benjamin_pelchat-tp2/users
+Stack Trace:
+#0 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\lib\Cake\Error\ErrorHandler.php(205): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\Users\\Miaw\\D...', 57)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\Users\\Miaw\\D...', 57, Array)
+#2 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\Users\\Miaw\\D...', 57, Array)
+#3 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-12-21 21:30:20 Error: [ForbiddenException] You're now allowed to do this.
+Request URL: /benjamin_pelchat-tp2/users
+Stack Trace:
+#0 [internal function]: UsersController->index()
+#1 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#2 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#3 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-12-21 21:31:36 Error: [ForbiddenException] You're now allowed to do this.
+Request URL: /benjamin_pelchat-tp2/users
+Stack Trace:
+#0 [internal function]: UsersController->index()
+#1 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#2 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#3 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-12-21 21:49:29 Error: [PDOException] SQLSTATE[HY000]: General error: 1 no such function: MD5
+Request URL: /benjamin_pelchat-tp2/users/activate/13-e2510f35c513436022a13f6154b12a82
+Stack Trace:
+#0 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\lib\Cake\Model\Datasource\DboSource.php(458): PDO->prepare('SELECT "User"."...', Array)
+#1 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\lib\Cake\Model\Datasource\DboSource.php(426): DboSource->_execute('SELECT "User"."...', Array)
+#2 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\lib\Cake\Model\Datasource\DboSource.php(666): DboSource->execute('SELECT "User"."...', Array, Array)
+#3 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\lib\Cake\Model\Datasource\DboSource.php(1077): DboSource->fetchAll('SELECT "User"."...', false)
+#4 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\lib\Cake\Model\Model.php(2750): DboSource->read(Object(User), Array)
+#5 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\lib\Cake\Model\Model.php(2722): Model->_readDataSource('first', Array)
+#6 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\app\Controller\UsersController.php(277): Model->find('first', Array)
+#7 [internal function]: UsersController->activate('13-e2510f35c513...')
+#8 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#9 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#10 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#11 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2014-12-21 21:49:42 Error: [PDOException] SQLSTATE[HY000]: General error: 1 no such function: MD5
+Request URL: /benjamin_pelchat-tp2/users/activate/13-e2510f35c513436022a13f6154b12a82
+Stack Trace:
+#0 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\lib\Cake\Model\Datasource\DboSource.php(458): PDO->prepare('SELECT "User"."...', Array)
+#1 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\lib\Cake\Model\Datasource\DboSource.php(426): DboSource->_execute('SELECT "User"."...', Array)
+#2 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\lib\Cake\Model\Datasource\DboSource.php(666): DboSource->execute('SELECT "User"."...', Array, Array)
+#3 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\lib\Cake\Model\Datasource\DboSource.php(1077): DboSource->fetchAll('SELECT "User"."...', false)
+#4 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\lib\Cake\Model\Model.php(2750): DboSource->read(Object(User), Array)
+#5 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\lib\Cake\Model\Model.php(2722): Model->_readDataSource('first', Array)
+#6 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\app\Controller\UsersController.php(277): Model->find('first', Array)
+#7 [internal function]: UsersController->activate('13-e2510f35c513...')
+#8 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#9 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#10 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#11 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2014-12-21 21:53:35 Error: [PDOException] SQLSTATE[HY000]: General error: 1 no such function: SHA1
+Request URL: /benjamin_pelchat-tp2/users/activate/14-3899afa3e92ab7dc6e469f37073fcb6a71026d87
+Stack Trace:
+#0 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\lib\Cake\Model\Datasource\DboSource.php(458): PDO->prepare('SELECT "User"."...', Array)
+#1 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\lib\Cake\Model\Datasource\DboSource.php(426): DboSource->_execute('SELECT "User"."...', Array)
+#2 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\lib\Cake\Model\Datasource\DboSource.php(666): DboSource->execute('SELECT "User"."...', Array, Array)
+#3 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\lib\Cake\Model\Datasource\DboSource.php(1077): DboSource->fetchAll('SELECT "User"."...', false)
+#4 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\lib\Cake\Model\Model.php(2750): DboSource->read(Object(User), Array)
+#5 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\lib\Cake\Model\Model.php(2722): Model->_readDataSource('first', Array)
+#6 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\app\Controller\UsersController.php(277): Model->find('first', Array)
+#7 [internal function]: UsersController->activate('14-3899afa3e92a...')
+#8 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#9 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#10 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#11 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2014-12-21 22:11:14 Error: [PDOException] SQLSTATE[HY000]: General error: 1 unrecognized token: ":"
+Request URL: /benjamin_pelchat-tp2/users/activate/16-cee8251326f014820e1f029d79dc478af503f2ec
+Stack Trace:
+#0 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\lib\Cake\Model\Datasource\DboSource.php(458): PDO->prepare('SELECT "User"."...', Array)
+#1 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\lib\Cake\Model\Datasource\DboSource.php(426): DboSource->_execute('SELECT "User"."...', Array)
+#2 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\lib\Cake\Model\Datasource\DboSource.php(666): DboSource->execute('SELECT "User"."...', Array, Array)
+#3 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\lib\Cake\Model\Datasource\DboSource.php(1077): DboSource->fetchAll('SELECT "User"."...', false)
+#4 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\lib\Cake\Model\Model.php(2750): DboSource->read(Object(User), Array)
+#5 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\lib\Cake\Model\Model.php(2722): Model->_readDataSource('first', Array)
+#6 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\app\Controller\UsersController.php(283): Model->find('first', Array)
+#7 [internal function]: UsersController->activate('16-cee8251326f0...')
+#8 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#9 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#10 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#11 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2014-12-21 22:19:29 Error: Fatal Error (1): Call to undefined method Security::salt() in [C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\app\Controller\UsersController.php, line 301]
+2014-12-21 22:19:29 Error: [FatalErrorException] Call to undefined method Security::salt()
+Request URL: /benjamin_pelchat-tp2/users/add
+Stack Trace:
+#0 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\lib\Cake\Error\ErrorHandler.php(205): ErrorHandler::handleFatalError(1, 'Call to undefin...', 'C:\\Users\\Miaw\\D...', 301)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', 'C:\\Users\\Miaw\\D...', 301, Array)
+#2 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', 'C:\\Users\\Miaw\\D...', 301, Array)
+#3 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-12-21 22:19:46 Error: Fatal Error (1): Call to undefined method Security::salt() in [C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\app\Controller\UsersController.php, line 301]
+2014-12-21 22:19:46 Error: [FatalErrorException] Call to undefined method Security::salt()
+Request URL: /benjamin_pelchat-tp2/users/add
+Stack Trace:
+#0 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\lib\Cake\Error\ErrorHandler.php(205): ErrorHandler::handleFatalError(1, 'Call to undefin...', 'C:\\Users\\Miaw\\D...', 301)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', 'C:\\Users\\Miaw\\D...', 301, Array)
+#2 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', 'C:\\Users\\Miaw\\D...', 301, Array)
+#3 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-12-21 22:38:29 Error: Fatal Error (1): Call to a member function viewVars() on a non-object in [C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\app\Controller\UsersController.php, line 244]
+2014-12-21 22:38:29 Error: [FatalErrorException] Call to a member function viewVars() on a non-object
+Request URL: /benjamin_pelchat-tp2/fra/users/remember_password
+Stack Trace:
+#0 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\lib\Cake\Error\ErrorHandler.php(205): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\Users\\Miaw\\D...', 244)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\Users\\Miaw\\D...', 244, Array)
+#2 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\Users\\Miaw\\D...', 244, Array)
+#3 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-12-21 22:39:22 Error: Fatal Error (1): Call to a member function viewVars() on a non-object in [C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\app\Controller\UsersController.php, line 244]
+2014-12-21 22:39:22 Error: [FatalErrorException] Call to a member function viewVars() on a non-object
+Request URL: /benjamin_pelchat-tp2/fra/users/remember_password
+Stack Trace:
+#0 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\lib\Cake\Error\ErrorHandler.php(205): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\Users\\Miaw\\D...', 244)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\Users\\Miaw\\D...', 244, Array)
+#2 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\Users\\Miaw\\D...', 244, Array)
+#3 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-12-21 22:47:22 Error: [ForbiddenException] You're now allowed to do this.
+Request URL: /benjamin_pelchat-tp2/users
+Stack Trace:
+#0 [internal function]: UsersController->index()
+#1 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#2 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#3 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-12-21 22:53:22 Error: [ForbiddenException] You're now allowed to do this.
+Request URL: /benjamin_pelchat-tp2/users
+Stack Trace:
+#0 [internal function]: UsersController->index()
+#1 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#2 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#3 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-12-21 22:57:25 Error: [ForbiddenException] You're now allowed to do this.
+Request URL: /benjamin_pelchat-tp2/users
+Stack Trace:
+#0 [internal function]: UsersController->index()
+#1 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#2 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#3 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-12-21 23:33:26 Error: Fatal Error (4): syntax error, unexpected 'public' (T_PUBLIC) in [C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\app\Controller\UsersController.php, line 60]
+2014-12-21 23:33:26 Error: [FatalErrorException] syntax error, unexpected 'public' (T_PUBLIC)
+Request URL: /benjamin_pelchat-tp2/
+Stack Trace:
+#0 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\lib\Cake\Error\ErrorHandler.php(205): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\Users\\Miaw\\D...', 60)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\Users\\Miaw\\D...', 60, Array)
+#2 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\Users\\Miaw\\D...', 60, Array)
+#3 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-12-21 23:38:26 Error: [MissingControllerException] Controller class MembreController could not be found.
+Exception Attributes: array (
+  'class' => 'MembreController',
+  'plugin' => NULL,
+)
+Request URL: /benjamin_pelchat-tp2/membre/employes
+Stack Trace:
+#0 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-21 23:40:51 Error: [ForbiddenException] You're now allowed to do this.
+Request URL: /benjamin_pelchat-tp2/users
+Stack Trace:
+#0 [internal function]: UsersController->index()
+#1 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#2 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#3 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-12-21 23:41:01 Error: [ForbiddenException] You're now allowed to do this.
+Request URL: /benjamin_pelchat-tp2/users
+Stack Trace:
+#0 [internal function]: UsersController->index()
+#1 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#2 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#3 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-12-21 23:41:04 Error: [ForbiddenException] You're now allowed to do this.
+Request URL: /benjamin_pelchat-tp2/users
+Stack Trace:
+#0 [internal function]: UsersController->index()
+#1 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#2 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#3 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-12-21 23:41:27 Error: [ForbiddenException] You're now allowed to do this.
+Request URL: /benjamin_pelchat-tp2/users
+Stack Trace:
+#0 [internal function]: UsersController->index()
+#1 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#2 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#3 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-12-21 23:44:57 Error: [ForbiddenException] You're now allowed to do this.
+Request URL: /benjamin_pelchat-tp2/users
+Stack Trace:
+#0 [internal function]: UsersController->index()
+#1 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#2 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#3 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-12-21 23:45:10 Error: [ForbiddenException] You're now allowed to do this.
+Request URL: /benjamin_pelchat-tp2/users
+Stack Trace:
+#0 [internal function]: UsersController->index()
+#1 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#2 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#3 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-12-21 23:45:12 Error: [ForbiddenException] You're now allowed to do this.
+Request URL: /benjamin_pelchat-tp2/users
+Stack Trace:
+#0 [internal function]: UsersController->index()
+#1 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#2 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#3 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}

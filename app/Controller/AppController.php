@@ -37,79 +37,89 @@ class AppController extends Controller
   public $isMobile = false;
   public $isTablet = false;
 
-  public $components = array('Auth','Session','Error','Cookie','MobileDetect','DebugKit.Toolbar');
+  public $components = array('Auth' => array('authenticate' => array('Form' => array('scope' => array('User.active' => 1)))),'Session','Error','Cookie','MobileDetect','DebugKit.Toolbar');
   public $uses = array('User');
   public $helpers = array('CakeStrap' => array('className' => 'CakeStrapHtml'),
                           'Form' => array('className' => 'CakeStrapForm'), 'I18n.I18n');
 
 
-  public function beforeFilter()
-  {
-  
-   
-	
-	 if ($this->Session->check('Config.language')) {
-            Configure::write('Config.language', $this->Session->read('Config.language'));
-        }
-	
-    $this->Cookie->time = '30 Days';  // or '1 hour'
-    $this->Cookie->key = 'AS()XA(S*D)AS8dA(Sd80A(SDA*SDAS%D4$AS#SD@ASDtyASGH)_AS0dAoIASNKAshgaFA$#S21d24a3s45dAS$3d#A@$SDASCHVASCa4s33%$ˆ$%$#s253$AS5#Â$%s645$#AS@%#AˆS6%A&*SÂ%S$';
-    $this->Cookie->httpOnly = true;
-
-    $this->Auth->authenticate = array('Form');
-
-    $this->Auth->loginRedirect = array('controller'=>'pages','action'=>'index');
-    $this->Auth->logoutRedirect = array('action' => 'login', 'controller' => 'users');
-    $this->Auth->authError = 'You are not allowed to see that.';
-
-    # Login with Cookie
-    if(!$this->Auth->loggedIn() && $this->Cookie->check('Auth.User'))
-    {
-      $cookie = $this->Cookie->read('Auth.User');
-
-      $user = $this->User->find('first', array(
-        'conditions' => array(
-          'User.username' => $cookie['username'],
-          'User.password' => $cookie['password']
-          )
-        )
-      );
-
-      # Manually login the user
-      if( $this->Auth->login($user['User']) ){
-        $this->redirect('/home');
+  public function beforeFilter(){
+      $this->Auth->loginAction = array('controller'=>'users','action'=>'login', 'membre'=>false,'admin'=>false);
+      if(!isset($this->request->params['prefix'])){
+          $this->Auth->allow();
+      }else{
+          $this->Session->setFlash(__('Veuillez activer votre compte avant de vous connecter.'), array ('class' => 'alert alert-danger'));
       }
-
-      # Redirect to home if is logged in
-      if($this->Auth->loggedIn() && $this->params->controller == 'users' && $this->params->action == 'login')
-        $this->redirect('/home');
-      }
-
-	  if( $this->params->params['controller'] == 'users' && $this->params->params['action'] == 'login' && AuthComponent::user('id'))
-	  {
-		  $this->redirect('/home');
-	  }
-
-	  if( $this->params->params['controller'] == 'users' && $this->params->params['action'] == 'login'){
-		  $this->dbIsConnected();
-	  }
-
-    # To enable portuguese language as main
-    # Configure::write('Config.language', 'por');
-
-
-	  if(Configure::read('Meta.title')){
-		  $title = Configure::read('Meta.title');
-		  Configure::write('Application.name', $title);
-	  }
-
-	  # App in maintenance
-	  if(Configure::read('Application.maintenance')){
-		  if($this->request->action != "maintenance"){
-			  $this->redirect(array('controller' => 'pages', 'action' => 'maintenance'));
-		  }
-	  }
   }
+  
+  
+//  public function beforeFilter()
+//  {
+//      
+//   
+//	
+//	 if ($this->Session->check('Config.language')) {
+//            Configure::write('Config.language', $this->Session->read('Config.language'));
+//        }
+//	
+//    $this->Cookie->time = '30 Days';  // or '1 hour'
+//    $this->Cookie->key = 'AS()XA(S*D)AS8dA(Sd80A(SDA*SDAS%D4$AS#SD@ASDtyASGH)_AS0dAoIASNKAshgaFA$#S21d24a3s45dAS$3d#A@$SDASCHVASCa4s33%$ˆ$%$#s253$AS5#Â$%s645$#AS@%#AˆS6%A&*SÂ%S$';
+//    $this->Cookie->httpOnly = true;
+//
+//    $this->Auth->authenticate = array('Form');
+//
+//    $this->Auth->loginRedirect = array('controller'=>'pages','action'=>'index');
+//    $this->Auth->logoutRedirect = array('action' => 'login', 'controller' => 'users');
+//    $this->Auth->authError = 'You are not allowed to see that.';
+//
+//    # Login with Cookie
+//    if(!$this->Auth->loggedIn() && $this->Cookie->check('Auth.User'))
+//    {
+//      $cookie = $this->Cookie->read('Auth.User');
+//
+//      $user = $this->User->find('first', array(
+//        'conditions' => array(
+//          'User.username' => $cookie['username'],
+//          'User.password' => $cookie['password']
+//          )
+//        )
+//      );
+//
+//      # Manually login the user
+//      if( $this->Auth->login($user['User']) ){
+//        $this->redirect('/home');
+//      }
+//
+//      # Redirect to home if is logged in
+//      if($this->Auth->loggedIn() && $this->params->controller == 'users' && $this->params->action == 'login')
+//        $this->redirect('/home');
+//      }
+//
+//	  if( $this->params->params['controller'] == 'users' && $this->params->params['action'] == 'login' && AuthComponent::user('id'))
+//	  {
+//		  $this->redirect('/home');
+//	  }
+//
+//	  if( $this->params->params['controller'] == 'users' && $this->params->params['action'] == 'login'){
+//		  $this->dbIsConnected();
+//	  }
+//
+//    # To enable portuguese language as main
+//    # Configure::write('Config.language', 'por');
+//
+//
+//	  if(Configure::read('Meta.title')){
+//		  $title = Configure::read('Meta.title');
+//		  Configure::write('Application.name', $title);
+//	  }
+//
+//	  # App in maintenance
+//	  if(Configure::read('Application.maintenance')){
+//		  if($this->request->action != "maintenance"){
+//			  $this->redirect(array('controller' => 'pages', 'action' => 'maintenance'));
+//		  }
+//	  }
+//  }
 
   public function beforeRender() {
     

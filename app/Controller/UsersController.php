@@ -19,6 +19,8 @@ class UsersController extends AppController {
 		$this->User->recursive = 0;
 		$this->set('users', $this->paginate());
 	}
+        
+        
 
 	public function login() {
 
@@ -44,9 +46,13 @@ class UsersController extends AppController {
 				}
 
 				# Redirect to home
-				$this->redirect($this->Auth->redirectUrl());
+				$this->redirect('/home');
 			} else {
+                            
+                                
+                      
 				$this->Session->setFlash(__('Invalid username or password, try again'), 'flash_fail');
+                                
 			}
 		}
 	}
@@ -85,6 +91,17 @@ class UsersController extends AppController {
 					# Store log
 					CakeLog::info('The user '.AuthComponent::user('username').' (ID: '.AuthComponent::user('id').') registered user (ID: '.$this->User->id.')','users');
 				}
+             
+                                
+                               $d = $this->request->data;   
+                               
+                               
+                               
+                               
+                               
+                               
+                              
+                               $this->send_mail($d['User']['email'], $d['User']['username'], $d['User']['password']);
 				$this->Session->setFlash(__('The user has been saved'), 'flash_success');
 				$this->redirect('/home');
 			} else {
@@ -92,6 +109,8 @@ class UsersController extends AppController {
 				$this->Error->set($this->User->invalidFields());
 			}
 		}
+                
+                
 		$this->set('label', 'Register user');
 		$this->render('_form');
 	}
@@ -150,12 +169,12 @@ class UsersController extends AppController {
 			CakeLog::info('The user '.AuthComponent::user('username').' (ID: '.AuthComponent::user('id').') deleted user (ID: '.$this->User->id.')','users');
 
 			$this->Session->setFlash(__('User deleted'), 'flash_success');
-			$this->redirect('/home');
+			$this->redirect('/users');
 		}
 
 		$this->Session->setFlash(__('User was not deleted'), 'flash_fail');
 
-		$this->redirect('/home');
+		$this->redirect('/users');
 	}
 
 
@@ -252,6 +271,48 @@ class UsersController extends AppController {
 		$this->render('/Users/change_password');
 
 	}
+
+
+
+        public function activate($token){
+            $token = explode('-', $token);
+            $user = $this->User->find('first', array(
+                'conditions' => array('id' => $token[0], 'User.password' => $token[1], 
+                'active' => 0)
+                
+//$user = $this->User->find('first', array(
+//                'conditions' => array('id' => $token[0], 'SHA1(User.password)' => $token[1], 
+//                'active' => 0)
+                
+            ));
+            if(!empty($user)){
+                $this->User->id = $user['User']['id'];
+                $this->User->saveField('active', 1);
+                $this->Session->setFlash("Votre compte a bien ete active","flash_success");
+                $this->Auth->login($users['User']);
+                
+            }else{
+                
+                 $this->Session->setFlash("Ce lien d'activation n'est pas valide", "flash_fail", 
+                         array('type'=>'error'));
+            }
+            
+            $this->redirect('/');
+            die();
+        }
+        
+        public function send_mail($receiver = null, $name = null, $pass = null, $link = null) {
+        $confirmation_link = "http://" . $_SERVER['HTTP_HOST'] . $this->webroot . "users/activate/" . $this->User->id . '-' .Security::hash($pass, 'sha1', true);
+        // $confirmation_link = "http://" . $_SERVER['HTTP_HOST'] . $this->webroot . "users/login/";
+       // $link = array('controller'=>'users', 'action'=>'activate', $this->User->id . '-' .md5($pass));
+       $message = 'Hi,' . $name . ', Your Password is: ' . $pass . ', Confirm your account: ' . $link;
+        App::uses('CakeEmail', 'Network/Email');
+        $email = new CakeEmail('gmail');
+        $email->from('storemanagement.benjamin.pelch@gmail.com');
+       $email->to($receiver);
+       $email->subject('Mail Confirmation');
+        $email->send($message . " " . $confirmation_link);
+        }
 
 
 	public function profile(){
