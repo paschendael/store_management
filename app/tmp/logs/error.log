@@ -1,0 +1,1427 @@
+2014-11-02 22:33:01 Error: [MissingHelperException] Helper class CakeStrapHelper could not be found.
+Exception Attributes: array (
+  'class' => 'CakeStrapHelper',
+  'plugin' => false,
+)
+Request URL: /cakeStrap/employes/add
+Stack Trace:
+#0 C:\Users\Miaw\Desktop\UniServerZ\www\cakeStrap\lib\Cake\View\HelperCollection.php(63): HelperCollection->load('CakeStrap')
+#1 C:\Users\Miaw\Desktop\UniServerZ\www\cakeStrap\lib\Cake\View\View.php(820): HelperCollection->__isset('CakeStrap')
+#2 C:\Users\Miaw\Desktop\UniServerZ\www\cakeStrap\app\View\Layouts\default.ctp(18): View->__get('CakeStrap')
+#3 C:\Users\Miaw\Desktop\UniServerZ\www\cakeStrap\lib\Cake\View\View.php(931): include('C:\\Users\\Miaw\\D...')
+#4 C:\Users\Miaw\Desktop\UniServerZ\www\cakeStrap\lib\Cake\View\View.php(893): View->_evaluate('C:\\Users\\Miaw\\D...', Array)
+#5 C:\Users\Miaw\Desktop\UniServerZ\www\cakeStrap\lib\Cake\View\View.php(525): View->_render('C:\\Users\\Miaw\\D...')
+#6 C:\Users\Miaw\Desktop\UniServerZ\www\cakeStrap\lib\Cake\View\View.php(470): View->renderLayout('', 'default')
+#7 C:\Users\Miaw\Desktop\UniServerZ\www\cakeStrap\lib\Cake\Controller\Controller.php(952): View->render(NULL, NULL)
+#8 C:\Users\Miaw\Desktop\UniServerZ\www\cakeStrap\lib\Cake\Routing\Dispatcher.php(194): Controller->render()
+#9 C:\Users\Miaw\Desktop\UniServerZ\www\cakeStrap\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(EmployesController), Object(CakeRequest), Object(CakeResponse))
+#10 C:\Users\Miaw\Desktop\UniServerZ\www\cakeStrap\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2014-11-02 22:33:01 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cakeStrap/css/cake.generic.css
+Stack Trace:
+#0 C:\Users\Miaw\Desktop\UniServerZ\www\cakeStrap\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-02 22:33:01 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /cakeStrap/img/cake.power.gif
+Stack Trace:
+#0 C:\Users\Miaw\Desktop\UniServerZ\www\cakeStrap\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-02 22:56:38 Error: [MissingControllerException] Controller class EmployeController could not be found.
+Exception Attributes: array (
+  'class' => 'EmployeController',
+  'plugin' => NULL,
+)
+Request URL: /cakeStrap/employe
+Stack Trace:
+#0 C:\Users\Miaw\Desktop\UniServerZ\www\cakeStrap\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-02 22:56:47 Error: [MissingControllerException] Controller class EmployeController could not be found.
+Exception Attributes: array (
+  'class' => 'EmployeController',
+  'plugin' => NULL,
+)
+Request URL: /cakeStrap/employe
+Stack Trace:
+#0 C:\Users\Miaw\Desktop\UniServerZ\www\cakeStrap\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-02 22:56:49 Error: [MissingControllerException] Controller class EmployeController could not be found.
+Exception Attributes: array (
+  'class' => 'EmployeController',
+  'plugin' => NULL,
+)
+Request URL: /cakeStrap/employe
+Stack Trace:
+#0 C:\Users\Miaw\Desktop\UniServerZ\www\cakeStrap\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-02 23:48:15 Error: [NotFoundException] Invalid departement
+Request URL: /cakeStrap/departements/delete/11
+Stack Trace:
+#0 [internal function]: DepartementsController->delete('11')
+#1 C:\Users\Miaw\Desktop\UniServerZ\www\cakeStrap\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(DepartementsController), Array)
+#2 C:\Users\Miaw\Desktop\UniServerZ\www\cakeStrap\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#3 C:\Users\Miaw\Desktop\UniServerZ\www\cakeStrap\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(DepartementsController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\Users\Miaw\Desktop\UniServerZ\www\cakeStrap\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-11-03 00:29:21 Error: Fatal Error (4): syntax error, unexpected '$user' (T_VARIABLE) in [C:\Users\Miaw\Desktop\UniServerZ\www\cakeStrap\app\Controller\UsersController.php, line 92]
+2014-11-03 00:29:21 Error: [FatalErrorException] syntax error, unexpected '$user' (T_VARIABLE)
+Request URL: /cakeStrap/me/edit
+Stack Trace:
+#0 C:\Users\Miaw\Desktop\UniServerZ\www\cakeStrap\lib\Cake\Error\ErrorHandler.php(205): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\Users\\Miaw\\D...', 92)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\Users\\Miaw\\D...', 92, Array)
+#2 C:\Users\Miaw\Desktop\UniServerZ\www\cakeStrap\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\Users\\Miaw\\D...', 92, Array)
+#3 C:\Users\Miaw\Desktop\UniServerZ\www\cakeStrap\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-11-03 00:38:57 Error: [MissingControllerException] Controller class LoginController could not be found.
+Exception Attributes: array (
+  'class' => 'LoginController',
+  'plugin' => NULL,
+)
+Request URL: /cakeStrap/login
+Stack Trace:
+#0 C:\Users\Miaw\Desktop\UniServerZ\www\cakeStrap\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-03 00:39:11 Error: [MissingControllerException] Controller class RegisterController could not be found.
+Exception Attributes: array (
+  'class' => 'RegisterController',
+  'plugin' => NULL,
+)
+Request URL: /cakeStrap/register
+Stack Trace:
+#0 C:\Users\Miaw\Desktop\UniServerZ\www\cakeStrap\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-03 00:39:18 Error: [MissingActionException] Action UsersController::register() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'register',
+)
+Request URL: /cakeStrap/users/register
+Stack Trace:
+#0 C:\Users\Miaw\Desktop\UniServerZ\www\cakeStrap\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 C:\Users\Miaw\Desktop\UniServerZ\www\cakeStrap\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\Users\Miaw\Desktop\UniServerZ\www\cakeStrap\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-11-03 00:44:37 Error: [NotFoundException] Invalid user
+Request URL: /cakeStrap/users/edit
+Stack Trace:
+#0 [internal function]: UsersController->edit()
+#1 C:\Users\Miaw\Desktop\UniServerZ\www\cakeStrap\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#2 C:\Users\Miaw\Desktop\UniServerZ\www\cakeStrap\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#3 C:\Users\Miaw\Desktop\UniServerZ\www\cakeStrap\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\Users\Miaw\Desktop\UniServerZ\www\cakeStrap\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-11-03 00:47:03 Error: [ForbiddenException] You're now allowed to do this.
+Request URL: /cakeStrap/users
+Stack Trace:
+#0 [internal function]: UsersController->index()
+#1 C:\Users\Miaw\Desktop\UniServerZ\www\cakeStrap\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#2 C:\Users\Miaw\Desktop\UniServerZ\www\cakeStrap\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#3 C:\Users\Miaw\Desktop\UniServerZ\www\cakeStrap\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\Users\Miaw\Desktop\UniServerZ\www\cakeStrap\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-11-03 00:47:12 Error: [ForbiddenException] You're now allowed to do this.
+Request URL: /cakeStrap/users
+Stack Trace:
+#0 [internal function]: UsersController->index()
+#1 C:\Users\Miaw\Desktop\UniServerZ\www\cakeStrap\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#2 C:\Users\Miaw\Desktop\UniServerZ\www\cakeStrap\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#3 C:\Users\Miaw\Desktop\UniServerZ\www\cakeStrap\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\Users\Miaw\Desktop\UniServerZ\www\cakeStrap\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-11-03 00:47:14 Error: [ForbiddenException] You're now allowed to do this.
+Request URL: /cakeStrap/users
+Stack Trace:
+#0 [internal function]: UsersController->index()
+#1 C:\Users\Miaw\Desktop\UniServerZ\www\cakeStrap\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#2 C:\Users\Miaw\Desktop\UniServerZ\www\cakeStrap\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#3 C:\Users\Miaw\Desktop\UniServerZ\www\cakeStrap\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\Users\Miaw\Desktop\UniServerZ\www\cakeStrap\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-11-03 00:47:57 Error: [ForbiddenException] You're now allowed to do this.
+Request URL: /cakeStrap/users
+Stack Trace:
+#0 [internal function]: UsersController->index()
+#1 C:\Users\Miaw\Desktop\UniServerZ\www\cakeStrap\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#2 C:\Users\Miaw\Desktop\UniServerZ\www\cakeStrap\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#3 C:\Users\Miaw\Desktop\UniServerZ\www\cakeStrap\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\Users\Miaw\Desktop\UniServerZ\www\cakeStrap\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-11-03 00:49:08 Error: [MissingActionException] Action UsersController::aadd() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'aadd',
+)
+Request URL: /cakeStrap/users/aadd
+Stack Trace:
+#0 C:\Users\Miaw\Desktop\UniServerZ\www\cakeStrap\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 C:\Users\Miaw\Desktop\UniServerZ\www\cakeStrap\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\Users\Miaw\Desktop\UniServerZ\www\cakeStrap\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-11-03 00:57:25 Error: [ForbiddenException] You're now allowed to do this.
+Request URL: /cakeStrap/users
+Stack Trace:
+#0 [internal function]: UsersController->index()
+#1 C:\Users\Miaw\Desktop\UniServerZ\www\cakeStrap\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#2 C:\Users\Miaw\Desktop\UniServerZ\www\cakeStrap\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#3 C:\Users\Miaw\Desktop\UniServerZ\www\cakeStrap\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\Users\Miaw\Desktop\UniServerZ\www\cakeStrap\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-11-03 01:56:55 Error: [MissingControllerException] Controller class DepartementsController could not be found.
+Exception Attributes: array (
+  'class' => 'DepartementsController',
+  'plugin' => NULL,
+)
+Request URL: /cakeStrap/departements/add
+Stack Trace:
+#0 C:\Users\Miaw\Desktop\UniServerZ\www\cakeStrap\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-03 01:58:28 Error: [MissingControllerException] Controller class DepartementsController could not be found.
+Exception Attributes: array (
+  'class' => 'DepartementsController',
+  'plugin' => NULL,
+)
+Request URL: /cakeStrap/departements/add
+Stack Trace:
+#0 C:\Users\Miaw\Desktop\UniServerZ\www\cakeStrap\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-03 01:59:02 Error: [MissingControllerException] Controller class DepartementsController could not be found.
+Exception Attributes: array (
+  'class' => 'DepartementsController',
+  'plugin' => NULL,
+)
+Request URL: /cakeStrap/departements
+Stack Trace:
+#0 C:\Users\Miaw\Desktop\UniServerZ\www\cakeStrap\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-03 02:03:10 Error: [MissingControllerException] Controller class DepartementsController could not be found.
+Exception Attributes: array (
+  'class' => 'DepartementsController',
+  'plugin' => NULL,
+)
+Request URL: /cakeStrap/departements
+Stack Trace:
+#0 C:\Users\Miaw\Desktop\UniServerZ\www\cakeStrap\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-03 02:05:23 Error: [MissingViewException] View file "C:\Users\Miaw\Desktop\UniServerZ\www\cakeStrap\app\View\Managers\index.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'C:\\Users\\Miaw\\Desktop\\UniServerZ\\www\\cakeStrap\\app\\View\\Managers\\index.ctp',
+)
+Request URL: /cakeStrap/managers
+Stack Trace:
+#0 C:\Users\Miaw\Desktop\UniServerZ\www\cakeStrap\lib\Cake\View\View.php(459): View->_getViewFileName(NULL)
+#1 C:\Users\Miaw\Desktop\UniServerZ\www\cakeStrap\lib\Cake\Controller\Controller.php(952): View->render(NULL, NULL)
+#2 C:\Users\Miaw\Desktop\UniServerZ\www\cakeStrap\lib\Cake\Routing\Dispatcher.php(194): Controller->render()
+#3 C:\Users\Miaw\Desktop\UniServerZ\www\cakeStrap\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(ManagersController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\Users\Miaw\Desktop\UniServerZ\www\cakeStrap\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-11-03 02:21:35 Error: [MissingViewException] View file "C:\Users\Miaw\Desktop\UniServerZ\www\cakeStrap\app\View\Schedules\index.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'C:\\Users\\Miaw\\Desktop\\UniServerZ\\www\\cakeStrap\\app\\View\\Schedules\\index.ctp',
+)
+Request URL: /cakeStrap/schedules
+Stack Trace:
+#0 C:\Users\Miaw\Desktop\UniServerZ\www\cakeStrap\lib\Cake\View\View.php(459): View->_getViewFileName(NULL)
+#1 C:\Users\Miaw\Desktop\UniServerZ\www\cakeStrap\lib\Cake\Controller\Controller.php(952): View->render(NULL, NULL)
+#2 C:\Users\Miaw\Desktop\UniServerZ\www\cakeStrap\lib\Cake\Routing\Dispatcher.php(194): Controller->render()
+#3 C:\Users\Miaw\Desktop\UniServerZ\www\cakeStrap\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(SchedulesController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\Users\Miaw\Desktop\UniServerZ\www\cakeStrap\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-11-03 02:52:54 Error: Fatal Error (4): syntax error, unexpected 'class' (T_CLASS), expecting ')' in [C:\Users\Miaw\Desktop\UniServerZ\www\cakeStrap\app\View\Elements\nav.ctp, line 89]
+2014-11-03 02:52:54 Error: [FatalErrorException] syntax error, unexpected 'class' (T_CLASS), expecting ')'
+Request URL: /cakeStrap/home
+Stack Trace:
+#0 C:\Users\Miaw\Desktop\UniServerZ\www\cakeStrap\lib\Cake\Error\ErrorHandler.php(205): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\Users\\Miaw\\D...', 89)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\Users\\Miaw\\D...', 89, Array)
+#2 C:\Users\Miaw\Desktop\UniServerZ\www\cakeStrap\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\Users\\Miaw\\D...', 89, Array)
+#3 C:\Users\Miaw\Desktop\UniServerZ\www\cakeStrap\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-11-03 02:54:06 Error: Fatal Error (4): syntax error, unexpected 'class' (T_CLASS), expecting ')' in [C:\Users\Miaw\Desktop\UniServerZ\www\cakeStrap\app\View\Elements\nav.ctp, line 89]
+2014-11-03 02:54:06 Error: [FatalErrorException] syntax error, unexpected 'class' (T_CLASS), expecting ')'
+Request URL: /cakeStrap/home
+Stack Trace:
+#0 C:\Users\Miaw\Desktop\UniServerZ\www\cakeStrap\lib\Cake\Error\ErrorHandler.php(205): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\Users\\Miaw\\D...', 89)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\Users\\Miaw\\D...', 89, Array)
+#2 C:\Users\Miaw\Desktop\UniServerZ\www\cakeStrap\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\Users\\Miaw\\D...', 89, Array)
+#3 C:\Users\Miaw\Desktop\UniServerZ\www\cakeStrap\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-11-03 02:55:06 Error: Fatal Error (1): Call to undefined method View::flagSwitcher() in [C:\Users\Miaw\Desktop\UniServerZ\www\cakeStrap\app\View\Elements\nav.ctp, line 88]
+2014-11-03 02:55:06 Error: [FatalErrorException] Call to undefined method View::flagSwitcher()
+Request URL: /cakeStrap/home
+Stack Trace:
+#0 C:\Users\Miaw\Desktop\UniServerZ\www\cakeStrap\lib\Cake\Error\ErrorHandler.php(205): ErrorHandler::handleFatalError(1, 'Call to undefin...', 'C:\\Users\\Miaw\\D...', 88)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', 'C:\\Users\\Miaw\\D...', 88, Array)
+#2 C:\Users\Miaw\Desktop\UniServerZ\www\cakeStrap\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', 'C:\\Users\\Miaw\\D...', 88, Array)
+#3 C:\Users\Miaw\Desktop\UniServerZ\www\cakeStrap\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-11-03 02:55:13 Error: Fatal Error (1): Call to undefined method View::flagSwitcher() in [C:\Users\Miaw\Desktop\UniServerZ\www\cakeStrap\app\View\Elements\nav.ctp, line 88]
+2014-11-03 02:55:13 Error: [FatalErrorException] Call to undefined method View::flagSwitcher()
+Request URL: /cakeStrap/employes
+Stack Trace:
+#0 C:\Users\Miaw\Desktop\UniServerZ\www\cakeStrap\lib\Cake\Error\ErrorHandler.php(205): ErrorHandler::handleFatalError(1, 'Call to undefin...', 'C:\\Users\\Miaw\\D...', 88)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', 'C:\\Users\\Miaw\\D...', 88, Array)
+#2 C:\Users\Miaw\Desktop\UniServerZ\www\cakeStrap\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', 'C:\\Users\\Miaw\\D...', 88, Array)
+#3 C:\Users\Miaw\Desktop\UniServerZ\www\cakeStrap\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-11-03 04:19:07 Error: Fatal Error (4): syntax error, unexpected ';', expecting ')' in [C:\Users\Miaw\Desktop\UniServerZ\www\cakeStrap\app\Controller\AppController.php, line 45]
+2014-11-03 04:19:07 Error: [FatalErrorException] syntax error, unexpected ';', expecting ')'
+Request URL: /cakeStrap/employes
+Stack Trace:
+#0 C:\Users\Miaw\Desktop\UniServerZ\www\cakeStrap\lib\Cake\Error\ErrorHandler.php(205): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\Users\\Miaw\\D...', 45)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\Users\\Miaw\\D...', 45, Array)
+#2 C:\Users\Miaw\Desktop\UniServerZ\www\cakeStrap\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\Users\\Miaw\\D...', 45, Array)
+#3 C:\Users\Miaw\Desktop\UniServerZ\www\cakeStrap\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-11-03 04:19:07 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /cakeStrap/img/cake.power.gif
+Stack Trace:
+#0 C:\Users\Miaw\Desktop\UniServerZ\www\cakeStrap\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-03 04:19:07 Error: Fatal Error (4): syntax error, unexpected ';', expecting ')' in [C:\Users\Miaw\Desktop\UniServerZ\www\cakeStrap\app\Controller\AppController.php, line 45]
+2014-11-03 04:19:07 Error: [FatalErrorException] syntax error, unexpected ';', expecting ')'
+Request URL: /cakeStrap/img/cake.power.gif
+Stack Trace:
+#0 C:\Users\Miaw\Desktop\UniServerZ\www\cakeStrap\lib\Cake\Error\ErrorHandler.php(205): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\Users\\Miaw\\D...', 45)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\Users\\Miaw\\D...', 45, Array)
+#2 C:\Users\Miaw\Desktop\UniServerZ\www\cakeStrap\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\Users\\Miaw\\D...', 45, Array)
+#3 C:\Users\Miaw\Desktop\UniServerZ\www\cakeStrap\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-11-03 04:19:07 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cakeStrap/css/cake.generic.css
+Stack Trace:
+#0 C:\Users\Miaw\Desktop\UniServerZ\www\cakeStrap\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-03 04:19:07 Error: Fatal Error (4): syntax error, unexpected ';', expecting ')' in [C:\Users\Miaw\Desktop\UniServerZ\www\cakeStrap\app\Controller\AppController.php, line 45]
+2014-11-03 04:19:07 Error: [FatalErrorException] syntax error, unexpected ';', expecting ')'
+Request URL: /cakeStrap/css/cake.generic.css
+Stack Trace:
+#0 C:\Users\Miaw\Desktop\UniServerZ\www\cakeStrap\lib\Cake\Error\ErrorHandler.php(205): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\Users\\Miaw\\D...', 45)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\Users\\Miaw\\D...', 45, Array)
+#2 C:\Users\Miaw\Desktop\UniServerZ\www\cakeStrap\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\Users\\Miaw\\D...', 45, Array)
+#3 C:\Users\Miaw\Desktop\UniServerZ\www\cakeStrap\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-11-03 04:19:07 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /cakeStrap/img/cake.power.gif
+Stack Trace:
+#0 C:\Users\Miaw\Desktop\UniServerZ\www\cakeStrap\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-03 04:19:07 Error: Fatal Error (4): syntax error, unexpected ';', expecting ')' in [C:\Users\Miaw\Desktop\UniServerZ\www\cakeStrap\app\Controller\AppController.php, line 45]
+2014-11-03 04:19:07 Error: [FatalErrorException] syntax error, unexpected ';', expecting ')'
+Request URL: /cakeStrap/img/cake.power.gif
+Stack Trace:
+#0 C:\Users\Miaw\Desktop\UniServerZ\www\cakeStrap\lib\Cake\Error\ErrorHandler.php(205): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\Users\\Miaw\\D...', 45)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\Users\\Miaw\\D...', 45, Array)
+#2 C:\Users\Miaw\Desktop\UniServerZ\www\cakeStrap\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\Users\\Miaw\\D...', 45, Array)
+#3 C:\Users\Miaw\Desktop\UniServerZ\www\cakeStrap\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-11-03 04:20:55 Error: [MissingHelperException] Helper class MyHtmlHelper could not be found.
+Exception Attributes: array (
+  'class' => 'MyHtmlHelper',
+  'plugin' => false,
+)
+Request URL: /cakeStrap/employes
+Stack Trace:
+#0 C:\Users\Miaw\Desktop\UniServerZ\www\cakeStrap\lib\Cake\View\View.php(869): HelperCollection->load('Html', Array)
+#1 C:\Users\Miaw\Desktop\UniServerZ\www\cakeStrap\lib\Cake\View\View.php(343): View->loadHelpers()
+#2 C:\Users\Miaw\Desktop\UniServerZ\www\cakeStrap\lib\Cake\Controller\Controller.php(1240): View->__construct(Object(EmployesController))
+#3 C:\Users\Miaw\Desktop\UniServerZ\www\cakeStrap\lib\Cake\Controller\Controller.php(938): Controller->_getViewObject()
+#4 C:\Users\Miaw\Desktop\UniServerZ\www\cakeStrap\lib\Cake\Routing\Dispatcher.php(194): Controller->render()
+#5 C:\Users\Miaw\Desktop\UniServerZ\www\cakeStrap\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(EmployesController), Object(CakeRequest), Object(CakeResponse))
+#6 C:\Users\Miaw\Desktop\UniServerZ\www\cakeStrap\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2014-11-03 04:20:55 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cakeStrap/css/cake.generic.css
+Stack Trace:
+#0 C:\Users\Miaw\Desktop\UniServerZ\www\cakeStrap\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-03 04:20:55 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /cakeStrap/img/cake.power.gif
+Stack Trace:
+#0 C:\Users\Miaw\Desktop\UniServerZ\www\cakeStrap\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-03 04:25:20 Error: [MissingHelperException] Helper class MyHtmlHelper could not be found.
+Exception Attributes: array (
+  'class' => 'MyHtmlHelper',
+  'plugin' => false,
+)
+Request URL: /cakeStrap/managers
+Stack Trace:
+#0 C:\Users\Miaw\Desktop\UniServerZ\www\cakeStrap\lib\Cake\View\View.php(869): HelperCollection->load('Html', Array)
+#1 C:\Users\Miaw\Desktop\UniServerZ\www\cakeStrap\lib\Cake\View\View.php(343): View->loadHelpers()
+#2 C:\Users\Miaw\Desktop\UniServerZ\www\cakeStrap\lib\Cake\Controller\Controller.php(1240): View->__construct(Object(ManagersController))
+#3 C:\Users\Miaw\Desktop\UniServerZ\www\cakeStrap\lib\Cake\Controller\Controller.php(938): Controller->_getViewObject()
+#4 C:\Users\Miaw\Desktop\UniServerZ\www\cakeStrap\lib\Cake\Routing\Dispatcher.php(194): Controller->render()
+#5 C:\Users\Miaw\Desktop\UniServerZ\www\cakeStrap\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(ManagersController), Object(CakeRequest), Object(CakeResponse))
+#6 C:\Users\Miaw\Desktop\UniServerZ\www\cakeStrap\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2014-11-03 04:25:20 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cakeStrap/css/cake.generic.css
+Stack Trace:
+#0 C:\Users\Miaw\Desktop\UniServerZ\www\cakeStrap\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-03 04:25:20 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /cakeStrap/img/cake.power.gif
+Stack Trace:
+#0 C:\Users\Miaw\Desktop\UniServerZ\www\cakeStrap\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-03 04:25:35 Error: [MissingHelperException] Helper class MyHtmlHelper could not be found.
+Exception Attributes: array (
+  'class' => 'MyHtmlHelper',
+  'plugin' => false,
+)
+Request URL: /cakeStrap/fra/managers
+Stack Trace:
+#0 C:\Users\Miaw\Desktop\UniServerZ\www\cakeStrap\lib\Cake\View\View.php(869): HelperCollection->load('Html', Array)
+#1 C:\Users\Miaw\Desktop\UniServerZ\www\cakeStrap\lib\Cake\View\View.php(343): View->loadHelpers()
+#2 C:\Users\Miaw\Desktop\UniServerZ\www\cakeStrap\lib\Cake\Controller\Controller.php(1240): View->__construct(Object(ManagersController))
+#3 C:\Users\Miaw\Desktop\UniServerZ\www\cakeStrap\lib\Cake\Controller\Controller.php(938): Controller->_getViewObject()
+#4 C:\Users\Miaw\Desktop\UniServerZ\www\cakeStrap\lib\Cake\Routing\Dispatcher.php(194): Controller->render()
+#5 C:\Users\Miaw\Desktop\UniServerZ\www\cakeStrap\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(ManagersController), Object(CakeRequest), Object(CakeResponse))
+#6 C:\Users\Miaw\Desktop\UniServerZ\www\cakeStrap\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2014-11-03 04:25:35 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cakeStrap/css/cake.generic.css
+Stack Trace:
+#0 C:\Users\Miaw\Desktop\UniServerZ\www\cakeStrap\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-03 04:25:35 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /cakeStrap/img/cake.power.gif
+Stack Trace:
+#0 C:\Users\Miaw\Desktop\UniServerZ\www\cakeStrap\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-03 04:25:52 Error: Fatal Error (4): syntax error, unexpected '}' in [C:\Users\Miaw\Desktop\UniServerZ\www\cakeStrap\app\Controller\AppController.php, line 163]
+2014-11-03 04:25:52 Error: [FatalErrorException] syntax error, unexpected '}'
+Request URL: /cakeStrap/fra/managers
+Stack Trace:
+#0 C:\Users\Miaw\Desktop\UniServerZ\www\cakeStrap\lib\Cake\Error\ErrorHandler.php(205): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\Users\\Miaw\\D...', 163)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\Users\\Miaw\\D...', 163, Array)
+#2 C:\Users\Miaw\Desktop\UniServerZ\www\cakeStrap\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\Users\\Miaw\\D...', 163, Array)
+#3 C:\Users\Miaw\Desktop\UniServerZ\www\cakeStrap\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-11-03 04:25:52 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cakeStrap/css/cake.generic.css
+Stack Trace:
+#0 C:\Users\Miaw\Desktop\UniServerZ\www\cakeStrap\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-03 04:25:52 Error: Fatal Error (4): syntax error, unexpected '}' in [C:\Users\Miaw\Desktop\UniServerZ\www\cakeStrap\app\Controller\AppController.php, line 163]
+2014-11-03 04:25:52 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /cakeStrap/img/cake.power.gif
+Stack Trace:
+#0 C:\Users\Miaw\Desktop\UniServerZ\www\cakeStrap\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-03 04:25:52 Error: [FatalErrorException] syntax error, unexpected '}'
+Request URL: /cakeStrap/css/cake.generic.css
+Stack Trace:
+#0 C:\Users\Miaw\Desktop\UniServerZ\www\cakeStrap\lib\Cake\Error\ErrorHandler.php(205): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\Users\\Miaw\\D...', 163)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\Users\\Miaw\\D...', 163, Array)
+#2 C:\Users\Miaw\Desktop\UniServerZ\www\cakeStrap\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\Users\\Miaw\\D...', 163, Array)
+#3 C:\Users\Miaw\Desktop\UniServerZ\www\cakeStrap\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-11-03 04:25:52 Error: Fatal Error (4): syntax error, unexpected '}' in [C:\Users\Miaw\Desktop\UniServerZ\www\cakeStrap\app\Controller\AppController.php, line 163]
+2014-11-03 04:25:52 Error: [FatalErrorException] syntax error, unexpected '}'
+Request URL: /cakeStrap/img/cake.power.gif
+Stack Trace:
+#0 C:\Users\Miaw\Desktop\UniServerZ\www\cakeStrap\lib\Cake\Error\ErrorHandler.php(205): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\Users\\Miaw\\D...', 163)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\Users\\Miaw\\D...', 163, Array)
+#2 C:\Users\Miaw\Desktop\UniServerZ\www\cakeStrap\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\Users\\Miaw\\D...', 163, Array)
+#3 C:\Users\Miaw\Desktop\UniServerZ\www\cakeStrap\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-11-03 04:26:57 Error: Fatal Error (4): syntax error, unexpected '}' in [C:\Users\Miaw\Desktop\UniServerZ\www\cakeStrap\app\Controller\AppController.php, line 163]
+2014-11-03 04:26:57 Error: [FatalErrorException] syntax error, unexpected '}'
+Request URL: /cakeStrap/fra/managers
+Stack Trace:
+#0 C:\Users\Miaw\Desktop\UniServerZ\www\cakeStrap\lib\Cake\Error\ErrorHandler.php(205): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\Users\\Miaw\\D...', 163)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\Users\\Miaw\\D...', 163, Array)
+#2 C:\Users\Miaw\Desktop\UniServerZ\www\cakeStrap\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\Users\\Miaw\\D...', 163, Array)
+#3 C:\Users\Miaw\Desktop\UniServerZ\www\cakeStrap\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-11-03 04:26:57 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cakeStrap/css/cake.generic.css
+Stack Trace:
+#0 C:\Users\Miaw\Desktop\UniServerZ\www\cakeStrap\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-03 04:26:57 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /cakeStrap/img/cake.power.gif
+Stack Trace:
+#0 C:\Users\Miaw\Desktop\UniServerZ\www\cakeStrap\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-03 04:26:57 Error: Fatal Error (4): syntax error, unexpected '}' in [C:\Users\Miaw\Desktop\UniServerZ\www\cakeStrap\app\Controller\AppController.php, line 163]
+2014-11-03 04:26:57 Error: [FatalErrorException] syntax error, unexpected '}'
+Request URL: /cakeStrap/css/cake.generic.css
+Stack Trace:
+#0 C:\Users\Miaw\Desktop\UniServerZ\www\cakeStrap\lib\Cake\Error\ErrorHandler.php(205): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\Users\\Miaw\\D...', 163)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\Users\\Miaw\\D...', 163, Array)
+#2 C:\Users\Miaw\Desktop\UniServerZ\www\cakeStrap\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\Users\\Miaw\\D...', 163, Array)
+#3 C:\Users\Miaw\Desktop\UniServerZ\www\cakeStrap\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-11-03 04:26:57 Error: Fatal Error (4): syntax error, unexpected '}' in [C:\Users\Miaw\Desktop\UniServerZ\www\cakeStrap\app\Controller\AppController.php, line 163]
+2014-11-03 04:26:57 Error: [FatalErrorException] syntax error, unexpected '}'
+Request URL: /cakeStrap/img/cake.power.gif
+Stack Trace:
+#0 C:\Users\Miaw\Desktop\UniServerZ\www\cakeStrap\lib\Cake\Error\ErrorHandler.php(205): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\Users\\Miaw\\D...', 163)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\Users\\Miaw\\D...', 163, Array)
+#2 C:\Users\Miaw\Desktop\UniServerZ\www\cakeStrap\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\Users\\Miaw\\D...', 163, Array)
+#3 C:\Users\Miaw\Desktop\UniServerZ\www\cakeStrap\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-11-03 04:27:30 Error: Fatal Error (4): syntax error, unexpected '}' in [C:\Users\Miaw\Desktop\UniServerZ\www\cakeStrap\app\Controller\AppController.php, line 163]
+2014-11-03 04:27:30 Error: [FatalErrorException] syntax error, unexpected '}'
+Request URL: /cakeStrap/fra/managers
+Stack Trace:
+#0 C:\Users\Miaw\Desktop\UniServerZ\www\cakeStrap\lib\Cake\Error\ErrorHandler.php(205): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\Users\\Miaw\\D...', 163)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\Users\\Miaw\\D...', 163, Array)
+#2 C:\Users\Miaw\Desktop\UniServerZ\www\cakeStrap\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\Users\\Miaw\\D...', 163, Array)
+#3 C:\Users\Miaw\Desktop\UniServerZ\www\cakeStrap\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-11-03 04:27:30 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /cakeStrap/img/cake.power.gif
+Stack Trace:
+#0 C:\Users\Miaw\Desktop\UniServerZ\www\cakeStrap\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-03 04:27:30 Error: Fatal Error (4): syntax error, unexpected '}' in [C:\Users\Miaw\Desktop\UniServerZ\www\cakeStrap\app\Controller\AppController.php, line 163]
+2014-11-03 04:27:30 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cakeStrap/css/cake.generic.css
+Stack Trace:
+#0 C:\Users\Miaw\Desktop\UniServerZ\www\cakeStrap\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-03 04:27:30 Error: [FatalErrorException] syntax error, unexpected '}'
+Request URL: /cakeStrap/img/cake.power.gif
+Stack Trace:
+#0 C:\Users\Miaw\Desktop\UniServerZ\www\cakeStrap\lib\Cake\Error\ErrorHandler.php(205): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\Users\\Miaw\\D...', 163)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\Users\\Miaw\\D...', 163, Array)
+#2 C:\Users\Miaw\Desktop\UniServerZ\www\cakeStrap\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\Users\\Miaw\\D...', 163, Array)
+#3 C:\Users\Miaw\Desktop\UniServerZ\www\cakeStrap\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-11-03 04:27:30 Error: Fatal Error (4): syntax error, unexpected '}' in [C:\Users\Miaw\Desktop\UniServerZ\www\cakeStrap\app\Controller\AppController.php, line 163]
+2014-11-03 04:27:30 Error: [FatalErrorException] syntax error, unexpected '}'
+Request URL: /cakeStrap/css/cake.generic.css
+Stack Trace:
+#0 C:\Users\Miaw\Desktop\UniServerZ\www\cakeStrap\lib\Cake\Error\ErrorHandler.php(205): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\Users\\Miaw\\D...', 163)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\Users\\Miaw\\D...', 163, Array)
+#2 C:\Users\Miaw\Desktop\UniServerZ\www\cakeStrap\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\Users\\Miaw\\D...', 163, Array)
+#3 C:\Users\Miaw\Desktop\UniServerZ\www\cakeStrap\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-11-03 04:27:30 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /cakeStrap/img/cake.power.gif
+Stack Trace:
+#0 C:\Users\Miaw\Desktop\UniServerZ\www\cakeStrap\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-03 04:27:30 Error: Fatal Error (4): syntax error, unexpected '}' in [C:\Users\Miaw\Desktop\UniServerZ\www\cakeStrap\app\Controller\AppController.php, line 163]
+2014-11-03 04:27:30 Error: [FatalErrorException] syntax error, unexpected '}'
+Request URL: /cakeStrap/img/cake.power.gif
+Stack Trace:
+#0 C:\Users\Miaw\Desktop\UniServerZ\www\cakeStrap\lib\Cake\Error\ErrorHandler.php(205): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\Users\\Miaw\\D...', 163)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\Users\\Miaw\\D...', 163, Array)
+#2 C:\Users\Miaw\Desktop\UniServerZ\www\cakeStrap\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\Users\\Miaw\\D...', 163, Array)
+#3 C:\Users\Miaw\Desktop\UniServerZ\www\cakeStrap\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-11-03 04:27:52 Error: Fatal Error (4): syntax error, unexpected '}' in [C:\Users\Miaw\Desktop\UniServerZ\www\cakeStrap\app\Controller\AppController.php, line 163]
+2014-11-03 04:27:52 Error: [FatalErrorException] syntax error, unexpected '}'
+Request URL: /cakeStrap/fra/managers
+Stack Trace:
+#0 C:\Users\Miaw\Desktop\UniServerZ\www\cakeStrap\lib\Cake\Error\ErrorHandler.php(205): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\Users\\Miaw\\D...', 163)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\Users\\Miaw\\D...', 163, Array)
+#2 C:\Users\Miaw\Desktop\UniServerZ\www\cakeStrap\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\Users\\Miaw\\D...', 163, Array)
+#3 C:\Users\Miaw\Desktop\UniServerZ\www\cakeStrap\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-11-03 04:27:52 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cakeStrap/css/cake.generic.css
+Stack Trace:
+#0 C:\Users\Miaw\Desktop\UniServerZ\www\cakeStrap\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-03 04:27:52 Error: Fatal Error (4): syntax error, unexpected '}' in [C:\Users\Miaw\Desktop\UniServerZ\www\cakeStrap\app\Controller\AppController.php, line 163]
+2014-11-03 04:27:52 Error: [FatalErrorException] syntax error, unexpected '}'
+Request URL: /cakeStrap/css/cake.generic.css
+Stack Trace:
+#0 C:\Users\Miaw\Desktop\UniServerZ\www\cakeStrap\lib\Cake\Error\ErrorHandler.php(205): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\Users\\Miaw\\D...', 163)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\Users\\Miaw\\D...', 163, Array)
+#2 C:\Users\Miaw\Desktop\UniServerZ\www\cakeStrap\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\Users\\Miaw\\D...', 163, Array)
+#3 C:\Users\Miaw\Desktop\UniServerZ\www\cakeStrap\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-11-03 04:27:52 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /cakeStrap/img/cake.power.gif
+Stack Trace:
+#0 C:\Users\Miaw\Desktop\UniServerZ\www\cakeStrap\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-03 04:27:52 Error: Fatal Error (4): syntax error, unexpected '}' in [C:\Users\Miaw\Desktop\UniServerZ\www\cakeStrap\app\Controller\AppController.php, line 163]
+2014-11-03 04:27:52 Error: [FatalErrorException] syntax error, unexpected '}'
+Request URL: /cakeStrap/img/cake.power.gif
+Stack Trace:
+#0 C:\Users\Miaw\Desktop\UniServerZ\www\cakeStrap\lib\Cake\Error\ErrorHandler.php(205): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\Users\\Miaw\\D...', 163)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\Users\\Miaw\\D...', 163, Array)
+#2 C:\Users\Miaw\Desktop\UniServerZ\www\cakeStrap\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\Users\\Miaw\\D...', 163, Array)
+#3 C:\Users\Miaw\Desktop\UniServerZ\www\cakeStrap\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-11-03 04:27:54 Error: Fatal Error (4): syntax error, unexpected '}' in [C:\Users\Miaw\Desktop\UniServerZ\www\cakeStrap\app\Controller\AppController.php, line 163]
+2014-11-03 04:27:54 Error: [FatalErrorException] syntax error, unexpected '}'
+Request URL: /cakeStrap/fra/managers
+Stack Trace:
+#0 C:\Users\Miaw\Desktop\UniServerZ\www\cakeStrap\lib\Cake\Error\ErrorHandler.php(205): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\Users\\Miaw\\D...', 163)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\Users\\Miaw\\D...', 163, Array)
+#2 C:\Users\Miaw\Desktop\UniServerZ\www\cakeStrap\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\Users\\Miaw\\D...', 163, Array)
+#3 C:\Users\Miaw\Desktop\UniServerZ\www\cakeStrap\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-11-03 04:27:54 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /cakeStrap/img/cake.power.gif
+Stack Trace:
+#0 C:\Users\Miaw\Desktop\UniServerZ\www\cakeStrap\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-03 04:27:54 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cakeStrap/css/cake.generic.css
+Stack Trace:
+#0 C:\Users\Miaw\Desktop\UniServerZ\www\cakeStrap\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-03 04:27:54 Error: Fatal Error (4): syntax error, unexpected '}' in [C:\Users\Miaw\Desktop\UniServerZ\www\cakeStrap\app\Controller\AppController.php, line 163]
+2014-11-03 04:27:54 Error: [FatalErrorException] syntax error, unexpected '}'
+Request URL: /cakeStrap/img/cake.power.gif
+Stack Trace:
+#0 C:\Users\Miaw\Desktop\UniServerZ\www\cakeStrap\lib\Cake\Error\ErrorHandler.php(205): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\Users\\Miaw\\D...', 163)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\Users\\Miaw\\D...', 163, Array)
+#2 C:\Users\Miaw\Desktop\UniServerZ\www\cakeStrap\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\Users\\Miaw\\D...', 163, Array)
+#3 C:\Users\Miaw\Desktop\UniServerZ\www\cakeStrap\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-11-03 04:27:54 Error: Fatal Error (4): syntax error, unexpected '}' in [C:\Users\Miaw\Desktop\UniServerZ\www\cakeStrap\app\Controller\AppController.php, line 163]
+2014-11-03 04:27:54 Error: [FatalErrorException] syntax error, unexpected '}'
+Request URL: /cakeStrap/css/cake.generic.css
+Stack Trace:
+#0 C:\Users\Miaw\Desktop\UniServerZ\www\cakeStrap\lib\Cake\Error\ErrorHandler.php(205): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\Users\\Miaw\\D...', 163)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\Users\\Miaw\\D...', 163, Array)
+#2 C:\Users\Miaw\Desktop\UniServerZ\www\cakeStrap\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\Users\\Miaw\\D...', 163, Array)
+#3 C:\Users\Miaw\Desktop\UniServerZ\www\cakeStrap\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-11-03 04:27:54 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /cakeStrap/img/cake.power.gif
+Stack Trace:
+#0 C:\Users\Miaw\Desktop\UniServerZ\www\cakeStrap\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-03 04:27:54 Error: Fatal Error (4): syntax error, unexpected '}' in [C:\Users\Miaw\Desktop\UniServerZ\www\cakeStrap\app\Controller\AppController.php, line 163]
+2014-11-03 04:27:54 Error: [FatalErrorException] syntax error, unexpected '}'
+Request URL: /cakeStrap/img/cake.power.gif
+Stack Trace:
+#0 C:\Users\Miaw\Desktop\UniServerZ\www\cakeStrap\lib\Cake\Error\ErrorHandler.php(205): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\Users\\Miaw\\D...', 163)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\Users\\Miaw\\D...', 163, Array)
+#2 C:\Users\Miaw\Desktop\UniServerZ\www\cakeStrap\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\Users\\Miaw\\D...', 163, Array)
+#3 C:\Users\Miaw\Desktop\UniServerZ\www\cakeStrap\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-11-03 04:27:55 Error: Fatal Error (4): syntax error, unexpected '}' in [C:\Users\Miaw\Desktop\UniServerZ\www\cakeStrap\app\Controller\AppController.php, line 163]
+2014-11-03 04:27:55 Error: [FatalErrorException] syntax error, unexpected '}'
+Request URL: /cakeStrap/fra/managers
+Stack Trace:
+#0 C:\Users\Miaw\Desktop\UniServerZ\www\cakeStrap\lib\Cake\Error\ErrorHandler.php(205): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\Users\\Miaw\\D...', 163)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\Users\\Miaw\\D...', 163, Array)
+#2 C:\Users\Miaw\Desktop\UniServerZ\www\cakeStrap\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\Users\\Miaw\\D...', 163, Array)
+#3 C:\Users\Miaw\Desktop\UniServerZ\www\cakeStrap\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-11-03 04:27:55 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /cakeStrap/img/cake.power.gif
+Stack Trace:
+#0 C:\Users\Miaw\Desktop\UniServerZ\www\cakeStrap\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-03 04:27:55 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cakeStrap/css/cake.generic.css
+Stack Trace:
+#0 C:\Users\Miaw\Desktop\UniServerZ\www\cakeStrap\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-03 04:27:55 Error: [FatalErrorException] syntax error, unexpected '}'
+Request URL: /cakeStrap/img/cake.power.gif
+Stack Trace:
+#0 C:\Users\Miaw\Desktop\UniServerZ\www\cakeStrap\lib\Cake\Error\ErrorHandler.php(205): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\Users\\Miaw\\D...', 163)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\Users\\Miaw\\D...', 163, Array)
+#2 C:\Users\Miaw\Desktop\UniServerZ\www\cakeStrap\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\Users\\Miaw\\D...', 163, Array)
+#3 C:\Users\Miaw\Desktop\UniServerZ\www\cakeStrap\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-11-03 04:27:55 Error: Fatal Error (4): syntax error, unexpected '}' in [C:\Users\Miaw\Desktop\UniServerZ\www\cakeStrap\app\Controller\AppController.php, line 163]
+2014-11-03 04:27:55 Error: [FatalErrorException] syntax error, unexpected '}'
+Request URL: /cakeStrap/css/cake.generic.css
+Stack Trace:
+#0 C:\Users\Miaw\Desktop\UniServerZ\www\cakeStrap\lib\Cake\Error\ErrorHandler.php(205): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\Users\\Miaw\\D...', 163)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\Users\\Miaw\\D...', 163, Array)
+#2 C:\Users\Miaw\Desktop\UniServerZ\www\cakeStrap\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\Users\\Miaw\\D...', 163, Array)
+#3 C:\Users\Miaw\Desktop\UniServerZ\www\cakeStrap\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-11-03 04:27:55 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /cakeStrap/img/cake.power.gif
+Stack Trace:
+#0 C:\Users\Miaw\Desktop\UniServerZ\www\cakeStrap\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-03 04:27:55 Error: Fatal Error (4): syntax error, unexpected '}' in [C:\Users\Miaw\Desktop\UniServerZ\www\cakeStrap\app\Controller\AppController.php, line 163]
+2014-11-03 04:27:55 Error: [FatalErrorException] syntax error, unexpected '}'
+Request URL: /cakeStrap/img/cake.power.gif
+Stack Trace:
+#0 C:\Users\Miaw\Desktop\UniServerZ\www\cakeStrap\lib\Cake\Error\ErrorHandler.php(205): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\Users\\Miaw\\D...', 163)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\Users\\Miaw\\D...', 163, Array)
+#2 C:\Users\Miaw\Desktop\UniServerZ\www\cakeStrap\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\Users\\Miaw\\D...', 163, Array)
+#3 C:\Users\Miaw\Desktop\UniServerZ\www\cakeStrap\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-11-03 04:27:55 Error: Fatal Error (4): syntax error, unexpected '}' in [C:\Users\Miaw\Desktop\UniServerZ\www\cakeStrap\app\Controller\AppController.php, line 163]
+2014-11-03 04:27:55 Error: [FatalErrorException] syntax error, unexpected '}'
+Request URL: /cakeStrap/fra/managers
+Stack Trace:
+#0 C:\Users\Miaw\Desktop\UniServerZ\www\cakeStrap\lib\Cake\Error\ErrorHandler.php(205): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\Users\\Miaw\\D...', 163)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\Users\\Miaw\\D...', 163, Array)
+#2 C:\Users\Miaw\Desktop\UniServerZ\www\cakeStrap\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\Users\\Miaw\\D...', 163, Array)
+#3 C:\Users\Miaw\Desktop\UniServerZ\www\cakeStrap\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-11-03 04:27:55 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cakeStrap/css/cake.generic.css
+Stack Trace:
+#0 C:\Users\Miaw\Desktop\UniServerZ\www\cakeStrap\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-03 04:27:55 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /cakeStrap/img/cake.power.gif
+Stack Trace:
+#0 C:\Users\Miaw\Desktop\UniServerZ\www\cakeStrap\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-03 04:27:55 Error: Fatal Error (4): syntax error, unexpected '}' in [C:\Users\Miaw\Desktop\UniServerZ\www\cakeStrap\app\Controller\AppController.php, line 163]
+2014-11-03 04:27:55 Error: [FatalErrorException] syntax error, unexpected '}'
+Request URL: /cakeStrap/css/cake.generic.css
+Stack Trace:
+#0 C:\Users\Miaw\Desktop\UniServerZ\www\cakeStrap\lib\Cake\Error\ErrorHandler.php(205): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\Users\\Miaw\\D...', 163)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\Users\\Miaw\\D...', 163, Array)
+#2 C:\Users\Miaw\Desktop\UniServerZ\www\cakeStrap\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\Users\\Miaw\\D...', 163, Array)
+#3 C:\Users\Miaw\Desktop\UniServerZ\www\cakeStrap\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-11-03 04:27:55 Error: Fatal Error (4): syntax error, unexpected '}' in [C:\Users\Miaw\Desktop\UniServerZ\www\cakeStrap\app\Controller\AppController.php, line 163]
+2014-11-03 04:27:55 Error: [FatalErrorException] syntax error, unexpected '}'
+Request URL: /cakeStrap/img/cake.power.gif
+Stack Trace:
+#0 C:\Users\Miaw\Desktop\UniServerZ\www\cakeStrap\lib\Cake\Error\ErrorHandler.php(205): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\Users\\Miaw\\D...', 163)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\Users\\Miaw\\D...', 163, Array)
+#2 C:\Users\Miaw\Desktop\UniServerZ\www\cakeStrap\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\Users\\Miaw\\D...', 163, Array)
+#3 C:\Users\Miaw\Desktop\UniServerZ\www\cakeStrap\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-11-03 04:27:55 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /cakeStrap/img/cake.power.gif
+Stack Trace:
+#0 C:\Users\Miaw\Desktop\UniServerZ\www\cakeStrap\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-03 04:27:55 Error: Fatal Error (4): syntax error, unexpected '}' in [C:\Users\Miaw\Desktop\UniServerZ\www\cakeStrap\app\Controller\AppController.php, line 163]
+2014-11-03 04:27:55 Error: [FatalErrorException] syntax error, unexpected '}'
+Request URL: /cakeStrap/img/cake.power.gif
+Stack Trace:
+#0 C:\Users\Miaw\Desktop\UniServerZ\www\cakeStrap\lib\Cake\Error\ErrorHandler.php(205): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\Users\\Miaw\\D...', 163)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\Users\\Miaw\\D...', 163, Array)
+#2 C:\Users\Miaw\Desktop\UniServerZ\www\cakeStrap\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\Users\\Miaw\\D...', 163, Array)
+#3 C:\Users\Miaw\Desktop\UniServerZ\www\cakeStrap\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-11-03 04:28:31 Error: Fatal Error (4): syntax error, unexpected 'public' (T_PUBLIC) in [C:\Users\Miaw\Desktop\UniServerZ\www\cakeStrap\app\Controller\AppController.php, line 165]
+2014-11-03 04:28:31 Error: [FatalErrorException] syntax error, unexpected 'public' (T_PUBLIC)
+Request URL: /cakeStrap/fra/managers
+Stack Trace:
+#0 C:\Users\Miaw\Desktop\UniServerZ\www\cakeStrap\lib\Cake\Error\ErrorHandler.php(205): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\Users\\Miaw\\D...', 165)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\Users\\Miaw\\D...', 165, Array)
+#2 C:\Users\Miaw\Desktop\UniServerZ\www\cakeStrap\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\Users\\Miaw\\D...', 165, Array)
+#3 C:\Users\Miaw\Desktop\UniServerZ\www\cakeStrap\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-11-03 04:28:31 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /cakeStrap/img/cake.power.gif
+Stack Trace:
+#0 C:\Users\Miaw\Desktop\UniServerZ\www\cakeStrap\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-03 04:28:31 Error: Fatal Error (4): syntax error, unexpected 'public' (T_PUBLIC) in [C:\Users\Miaw\Desktop\UniServerZ\www\cakeStrap\app\Controller\AppController.php, line 165]
+2014-11-03 04:28:31 Error: [FatalErrorException] syntax error, unexpected 'public' (T_PUBLIC)
+Request URL: /cakeStrap/img/cake.power.gif
+Stack Trace:
+#0 C:\Users\Miaw\Desktop\UniServerZ\www\cakeStrap\lib\Cake\Error\ErrorHandler.php(205): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\Users\\Miaw\\D...', 165)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\Users\\Miaw\\D...', 165, Array)
+#2 C:\Users\Miaw\Desktop\UniServerZ\www\cakeStrap\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\Users\\Miaw\\D...', 165, Array)
+#3 C:\Users\Miaw\Desktop\UniServerZ\www\cakeStrap\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-11-03 04:28:31 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cakeStrap/css/cake.generic.css
+Stack Trace:
+#0 C:\Users\Miaw\Desktop\UniServerZ\www\cakeStrap\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-03 04:28:31 Error: Fatal Error (4): syntax error, unexpected 'public' (T_PUBLIC) in [C:\Users\Miaw\Desktop\UniServerZ\www\cakeStrap\app\Controller\AppController.php, line 165]
+2014-11-03 04:28:31 Error: [FatalErrorException] syntax error, unexpected 'public' (T_PUBLIC)
+Request URL: /cakeStrap/css/cake.generic.css
+Stack Trace:
+#0 C:\Users\Miaw\Desktop\UniServerZ\www\cakeStrap\lib\Cake\Error\ErrorHandler.php(205): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\Users\\Miaw\\D...', 165)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\Users\\Miaw\\D...', 165, Array)
+#2 C:\Users\Miaw\Desktop\UniServerZ\www\cakeStrap\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\Users\\Miaw\\D...', 165, Array)
+#3 C:\Users\Miaw\Desktop\UniServerZ\www\cakeStrap\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-11-03 04:28:31 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /cakeStrap/img/cake.power.gif
+Stack Trace:
+#0 C:\Users\Miaw\Desktop\UniServerZ\www\cakeStrap\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-03 04:28:31 Error: Fatal Error (4): syntax error, unexpected 'public' (T_PUBLIC) in [C:\Users\Miaw\Desktop\UniServerZ\www\cakeStrap\app\Controller\AppController.php, line 165]
+2014-11-03 04:28:31 Error: [FatalErrorException] syntax error, unexpected 'public' (T_PUBLIC)
+Request URL: /cakeStrap/img/cake.power.gif
+Stack Trace:
+#0 C:\Users\Miaw\Desktop\UniServerZ\www\cakeStrap\lib\Cake\Error\ErrorHandler.php(205): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\Users\\Miaw\\D...', 165)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\Users\\Miaw\\D...', 165, Array)
+#2 C:\Users\Miaw\Desktop\UniServerZ\www\cakeStrap\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\Users\\Miaw\\D...', 165, Array)
+#3 C:\Users\Miaw\Desktop\UniServerZ\www\cakeStrap\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-11-03 04:29:44 Error: Fatal Error (4): syntax error, unexpected 'public' (T_PUBLIC) in [C:\Users\Miaw\Desktop\UniServerZ\www\cakeStrap\app\Controller\AppController.php, line 165]
+2014-11-03 04:29:44 Error: [FatalErrorException] syntax error, unexpected 'public' (T_PUBLIC)
+Request URL: /cakeStrap/fra/managers
+Stack Trace:
+#0 C:\Users\Miaw\Desktop\UniServerZ\www\cakeStrap\lib\Cake\Error\ErrorHandler.php(205): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\Users\\Miaw\\D...', 165)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\Users\\Miaw\\D...', 165, Array)
+#2 C:\Users\Miaw\Desktop\UniServerZ\www\cakeStrap\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\Users\\Miaw\\D...', 165, Array)
+#3 C:\Users\Miaw\Desktop\UniServerZ\www\cakeStrap\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-11-03 04:29:44 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /cakeStrap/img/cake.power.gif
+Stack Trace:
+#0 C:\Users\Miaw\Desktop\UniServerZ\www\cakeStrap\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-03 04:29:44 Error: Fatal Error (4): syntax error, unexpected 'public' (T_PUBLIC) in [C:\Users\Miaw\Desktop\UniServerZ\www\cakeStrap\app\Controller\AppController.php, line 165]
+2014-11-03 04:29:44 Error: [FatalErrorException] syntax error, unexpected 'public' (T_PUBLIC)
+Request URL: /cakeStrap/img/cake.power.gif
+Stack Trace:
+#0 C:\Users\Miaw\Desktop\UniServerZ\www\cakeStrap\lib\Cake\Error\ErrorHandler.php(205): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\Users\\Miaw\\D...', 165)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\Users\\Miaw\\D...', 165, Array)
+#2 C:\Users\Miaw\Desktop\UniServerZ\www\cakeStrap\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\Users\\Miaw\\D...', 165, Array)
+#3 C:\Users\Miaw\Desktop\UniServerZ\www\cakeStrap\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-11-03 04:29:44 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cakeStrap/css/cake.generic.css
+Stack Trace:
+#0 C:\Users\Miaw\Desktop\UniServerZ\www\cakeStrap\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-03 04:29:44 Error: Fatal Error (4): syntax error, unexpected 'public' (T_PUBLIC) in [C:\Users\Miaw\Desktop\UniServerZ\www\cakeStrap\app\Controller\AppController.php, line 165]
+2014-11-03 04:29:44 Error: [FatalErrorException] syntax error, unexpected 'public' (T_PUBLIC)
+Request URL: /cakeStrap/css/cake.generic.css
+Stack Trace:
+#0 C:\Users\Miaw\Desktop\UniServerZ\www\cakeStrap\lib\Cake\Error\ErrorHandler.php(205): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\Users\\Miaw\\D...', 165)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\Users\\Miaw\\D...', 165, Array)
+#2 C:\Users\Miaw\Desktop\UniServerZ\www\cakeStrap\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\Users\\Miaw\\D...', 165, Array)
+#3 C:\Users\Miaw\Desktop\UniServerZ\www\cakeStrap\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-11-03 04:29:44 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /cakeStrap/img/cake.power.gif
+Stack Trace:
+#0 C:\Users\Miaw\Desktop\UniServerZ\www\cakeStrap\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-03 04:29:44 Error: Fatal Error (4): syntax error, unexpected 'public' (T_PUBLIC) in [C:\Users\Miaw\Desktop\UniServerZ\www\cakeStrap\app\Controller\AppController.php, line 165]
+2014-11-03 04:29:44 Error: [FatalErrorException] syntax error, unexpected 'public' (T_PUBLIC)
+Request URL: /cakeStrap/img/cake.power.gif
+Stack Trace:
+#0 C:\Users\Miaw\Desktop\UniServerZ\www\cakeStrap\lib\Cake\Error\ErrorHandler.php(205): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\Users\\Miaw\\D...', 165)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\Users\\Miaw\\D...', 165, Array)
+#2 C:\Users\Miaw\Desktop\UniServerZ\www\cakeStrap\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\Users\\Miaw\\D...', 165, Array)
+#3 C:\Users\Miaw\Desktop\UniServerZ\www\cakeStrap\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-12-21 03:26:46 Error: Fatal Error (4): syntax error, unexpected ';', expecting ')' in [C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\app\Model\Employe.php, line 96]
+2014-12-21 03:26:46 Error: [FatalErrorException] syntax error, unexpected ';', expecting ')'
+Request URL: /benjamin_pelchat-tp2/employes
+Stack Trace:
+#0 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\lib\Cake\Error\ErrorHandler.php(205): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\Users\\Miaw\\D...', 96)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\Users\\Miaw\\D...', 96, Array)
+#2 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\Users\\Miaw\\D...', 96, Array)
+#3 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-12-21 03:26:51 Error: Fatal Error (4): syntax error, unexpected ';', expecting ')' in [C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\app\Model\Employe.php, line 96]
+2014-12-21 03:26:51 Error: [FatalErrorException] syntax error, unexpected ';', expecting ')'
+Request URL: /benjamin_pelchat-tp2/employes/add
+Stack Trace:
+#0 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\lib\Cake\Error\ErrorHandler.php(205): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\Users\\Miaw\\D...', 96)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\Users\\Miaw\\D...', 96, Array)
+#2 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\Users\\Miaw\\D...', 96, Array)
+#3 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-12-21 03:35:35 Error: Fatal Error (4): syntax error, unexpected 'public' (T_PUBLIC) in [C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\app\Controller\EmployesController.php, line 72]
+2014-12-21 03:35:35 Error: [FatalErrorException] syntax error, unexpected 'public' (T_PUBLIC)
+Request URL: /benjamin_pelchat-tp2/employes
+Stack Trace:
+#0 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\lib\Cake\Error\ErrorHandler.php(205): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\Users\\Miaw\\D...', 72)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\Users\\Miaw\\D...', 72, Array)
+#2 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\Users\\Miaw\\D...', 72, Array)
+#3 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-12-21 03:56:49 Error: Fatal Error (4): syntax error, unexpected ';' in [C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\app\View\Employes\add.ctp, line 2]
+2014-12-21 03:56:49 Error: [FatalErrorException] syntax error, unexpected ';'
+Request URL: /benjamin_pelchat-tp2/fra/employes/add
+Stack Trace:
+#0 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\lib\Cake\Error\ErrorHandler.php(205): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\Users\\Miaw\\D...', 2)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\Users\\Miaw\\D...', 2, Array)
+#2 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\Users\\Miaw\\D...', 2, Array)
+#3 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-12-21 03:57:15 Error: Fatal Error (4): syntax error, unexpected ';' in [C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\app\View\Employes\add.ctp, line 2]
+2014-12-21 03:57:15 Error: [FatalErrorException] syntax error, unexpected ';'
+Request URL: /benjamin_pelchat-tp2/fra/employes/add
+Stack Trace:
+#0 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\lib\Cake\Error\ErrorHandler.php(205): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\Users\\Miaw\\D...', 2)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\Users\\Miaw\\D...', 2, Array)
+#2 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\Users\\Miaw\\D...', 2, Array)
+#3 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-12-21 03:58:21 Error: [CakeException] Can not determine the mimetype.
+Request URL: /benjamin_pelchat-tp2/fra/employes/add
+Stack Trace:
+#0 [internal function]: Validation::mimeType(Array, Array)
+#1 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\lib\Cake\Model\Validator\CakeValidationRule.php(279): call_user_func_array(Array, Array)
+#2 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\lib\Cake\Model\Validator\CakeValidationSet.php(137): CakeValidationRule->process('filename', Array, Array)
+#3 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\lib\Cake\Model\ModelValidator.php(261): CakeValidationSet->validate(Array, false)
+#4 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\lib\Cake\Model\ModelValidator.php(101): ModelValidator->errors(Array)
+#5 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\lib\Cake\Model\Model.php(3141): ModelValidator->validates(Array)
+#6 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\lib\Cake\Model\Model.php(1675): Model->validates(Array)
+#7 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\app\Controller\EmployesController.php(51): Model->save(Array)
+#8 [internal function]: EmployesController->add()
+#9 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(EmployesController), Array)
+#10 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#11 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(EmployesController), Object(CakeRequest), Object(CakeResponse))
+#12 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2014-12-21 04:01:35 Error: [CakeException] Can not determine the mimetype.
+Request URL: /benjamin_pelchat-tp2/employes/add
+Stack Trace:
+#0 [internal function]: Validation::mimeType(Array, Array)
+#1 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\lib\Cake\Model\Validator\CakeValidationRule.php(279): call_user_func_array(Array, Array)
+#2 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\lib\Cake\Model\Validator\CakeValidationSet.php(137): CakeValidationRule->process('filename', Array, Array)
+#3 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\lib\Cake\Model\ModelValidator.php(261): CakeValidationSet->validate(Array, false)
+#4 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\lib\Cake\Model\ModelValidator.php(101): ModelValidator->errors(Array)
+#5 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\lib\Cake\Model\Model.php(3141): ModelValidator->validates(Array)
+#6 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\lib\Cake\Model\Model.php(1675): Model->validates(Array)
+#7 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\app\Controller\EmployesController.php(51): Model->save(Array)
+#8 [internal function]: EmployesController->add()
+#9 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(EmployesController), Array)
+#10 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#11 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(EmployesController), Object(CakeRequest), Object(CakeResponse))
+#12 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2014-12-21 04:04:27 Error: [CakeException] Can not determine the mimetype.
+Request URL: /benjamin_pelchat-tp2/employes/add
+Stack Trace:
+#0 [internal function]: Validation::mimeType(Array, Array)
+#1 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\lib\Cake\Model\Validator\CakeValidationRule.php(279): call_user_func_array(Array, Array)
+#2 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\lib\Cake\Model\Validator\CakeValidationSet.php(137): CakeValidationRule->process('filename', Array, Array)
+#3 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\lib\Cake\Model\ModelValidator.php(261): CakeValidationSet->validate(Array, false)
+#4 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\lib\Cake\Model\ModelValidator.php(101): ModelValidator->errors(Array)
+#5 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\lib\Cake\Model\Model.php(3141): ModelValidator->validates(Array)
+#6 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\lib\Cake\Model\Model.php(1675): Model->validates(Array)
+#7 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\app\Controller\EmployesController.php(51): Model->save(Array)
+#8 [internal function]: EmployesController->add()
+#9 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(EmployesController), Array)
+#10 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#11 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(EmployesController), Object(CakeRequest), Object(CakeResponse))
+#12 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2014-12-21 04:07:38 Error: [CakeException] Can not determine the mimetype.
+Request URL: /benjamin_pelchat-tp2/employes/add
+Stack Trace:
+#0 [internal function]: Validation::mimeType(Array, Array)
+#1 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\lib\Cake\Model\Validator\CakeValidationRule.php(279): call_user_func_array(Array, Array)
+#2 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\lib\Cake\Model\Validator\CakeValidationSet.php(137): CakeValidationRule->process('filename', Array, Array)
+#3 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\lib\Cake\Model\ModelValidator.php(261): CakeValidationSet->validate(Array, false)
+#4 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\lib\Cake\Model\ModelValidator.php(101): ModelValidator->errors(Array)
+#5 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\lib\Cake\Model\Model.php(3141): ModelValidator->validates(Array)
+#6 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\lib\Cake\Model\Model.php(1675): Model->validates(Array)
+#7 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\app\Controller\EmployesController.php(51): Model->save(Array)
+#8 [internal function]: EmployesController->add()
+#9 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(EmployesController), Array)
+#10 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#11 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(EmployesController), Object(CakeRequest), Object(CakeResponse))
+#12 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2014-12-21 04:19:18 Error: [CakeException] Can not determine the mimetype.
+Request URL: /benjamin_pelchat-tp2/fra/employes/add
+Stack Trace:
+#0 [internal function]: Validation::mimeType(Array, Array)
+#1 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\lib\Cake\Model\Validator\CakeValidationRule.php(279): call_user_func_array(Array, Array)
+#2 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\lib\Cake\Model\Validator\CakeValidationSet.php(137): CakeValidationRule->process('filename', Array, Array)
+#3 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\lib\Cake\Model\ModelValidator.php(261): CakeValidationSet->validate(Array, false)
+#4 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\lib\Cake\Model\ModelValidator.php(101): ModelValidator->errors(Array)
+#5 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\lib\Cake\Model\Model.php(3141): ModelValidator->validates(Array)
+#6 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\lib\Cake\Model\Model.php(1675): Model->validates(Array)
+#7 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\app\Controller\EmployesController.php(51): Model->save(Array)
+#8 [internal function]: EmployesController->add()
+#9 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(EmployesController), Array)
+#10 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#11 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(EmployesController), Object(CakeRequest), Object(CakeResponse))
+#12 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2014-12-21 04:25:10 Error: [MissingActionException] Action EmployesController::uploads() could not be found.
+Exception Attributes: array (
+  'controller' => 'EmployesController',
+  'action' => 'uploads',
+)
+Request URL: /benjamin_pelchat-tp2/employes/uploads/Chrysanthemum.jpg
+Stack Trace:
+#0 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(EmployesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-12-21 05:25:19 Error: Fatal Error (4): syntax error, unexpected ''" alt="">'' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ';' in [C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\app\View\Employes\view.ctp, line 41]
+2014-12-21 05:25:19 Error: [FatalErrorException] syntax error, unexpected ''" alt="">'' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ';'
+Request URL: /benjamin_pelchat-tp2/fra/employes/view/7
+Stack Trace:
+#0 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\lib\Cake\Error\ErrorHandler.php(205): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\Users\\Miaw\\D...', 41)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\Users\\Miaw\\D...', 41, Array)
+#2 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\Users\\Miaw\\D...', 41, Array)
+#3 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-12-21 05:25:45 Error: Fatal Error (4): syntax error, unexpected '<' in [C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\app\View\Employes\view.ctp, line 41]
+2014-12-21 05:25:45 Error: [FatalErrorException] syntax error, unexpected '<'
+Request URL: /benjamin_pelchat-tp2/fra/employes/view/7
+Stack Trace:
+#0 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\lib\Cake\Error\ErrorHandler.php(205): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\Users\\Miaw\\D...', 41)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\Users\\Miaw\\D...', 41, Array)
+#2 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\Users\\Miaw\\D...', 41, Array)
+#3 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-12-21 05:25:46 Error: Fatal Error (4): syntax error, unexpected '<' in [C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\app\View\Employes\view.ctp, line 41]
+2014-12-21 05:25:46 Error: [FatalErrorException] syntax error, unexpected '<'
+Request URL: /benjamin_pelchat-tp2/fra/employes/view/7
+Stack Trace:
+#0 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\lib\Cake\Error\ErrorHandler.php(205): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\Users\\Miaw\\D...', 41)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\Users\\Miaw\\D...', 41, Array)
+#2 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\Users\\Miaw\\D...', 41, Array)
+#3 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-12-21 05:25:46 Error: Fatal Error (4): syntax error, unexpected '<' in [C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\app\View\Employes\view.ctp, line 41]
+2014-12-21 05:25:46 Error: [FatalErrorException] syntax error, unexpected '<'
+Request URL: /benjamin_pelchat-tp2/fra/employes/view/7
+Stack Trace:
+#0 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\lib\Cake\Error\ErrorHandler.php(205): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\Users\\Miaw\\D...', 41)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\Users\\Miaw\\D...', 41, Array)
+#2 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\Users\\Miaw\\D...', 41, Array)
+#3 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-12-21 05:27:54 Error: Fatal Error (4): syntax error, unexpected '<' in [C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\app\View\Employes\view.ctp, line 41]
+2014-12-21 05:27:54 Error: [FatalErrorException] syntax error, unexpected '<'
+Request URL: /benjamin_pelchat-tp2/fra/employes/view/7
+Stack Trace:
+#0 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\lib\Cake\Error\ErrorHandler.php(205): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\Users\\Miaw\\D...', 41)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\Users\\Miaw\\D...', 41, Array)
+#2 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\Users\\Miaw\\D...', 41, Array)
+#3 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-12-21 05:27:55 Error: Fatal Error (4): syntax error, unexpected '<' in [C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\app\View\Employes\view.ctp, line 41]
+2014-12-21 05:27:55 Error: [FatalErrorException] syntax error, unexpected '<'
+Request URL: /benjamin_pelchat-tp2/fra/employes/view/7
+Stack Trace:
+#0 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\lib\Cake\Error\ErrorHandler.php(205): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\Users\\Miaw\\D...', 41)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\Users\\Miaw\\D...', 41, Array)
+#2 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\Users\\Miaw\\D...', 41, Array)
+#3 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-12-21 05:27:56 Error: Fatal Error (4): syntax error, unexpected '<' in [C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\app\View\Employes\view.ctp, line 41]
+2014-12-21 05:27:56 Error: [FatalErrorException] syntax error, unexpected '<'
+Request URL: /benjamin_pelchat-tp2/fra/employes/view/7
+Stack Trace:
+#0 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\lib\Cake\Error\ErrorHandler.php(205): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\Users\\Miaw\\D...', 41)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\Users\\Miaw\\D...', 41, Array)
+#2 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\Users\\Miaw\\D...', 41, Array)
+#3 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-12-21 05:28:11 Error: Fatal Error (4): syntax error, unexpected '<' in [C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\app\View\Employes\view.ctp, line 41]
+2014-12-21 05:28:11 Error: [FatalErrorException] syntax error, unexpected '<'
+Request URL: /benjamin_pelchat-tp2/fra/employes/view/7
+Stack Trace:
+#0 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\lib\Cake\Error\ErrorHandler.php(205): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\Users\\Miaw\\D...', 41)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\Users\\Miaw\\D...', 41, Array)
+#2 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\Users\\Miaw\\D...', 41, Array)
+#3 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-12-21 05:28:11 Error: Fatal Error (4): syntax error, unexpected '<' in [C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\app\View\Employes\view.ctp, line 41]
+2014-12-21 05:28:11 Error: [FatalErrorException] syntax error, unexpected '<'
+Request URL: /benjamin_pelchat-tp2/fra/employes/view/7
+Stack Trace:
+#0 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\lib\Cake\Error\ErrorHandler.php(205): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\Users\\Miaw\\D...', 41)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\Users\\Miaw\\D...', 41, Array)
+#2 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\Users\\Miaw\\D...', 41, Array)
+#3 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-12-21 05:28:12 Error: Fatal Error (4): syntax error, unexpected '<' in [C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\app\View\Employes\view.ctp, line 41]
+2014-12-21 05:28:12 Error: [FatalErrorException] syntax error, unexpected '<'
+Request URL: /benjamin_pelchat-tp2/fra/employes/view/7
+Stack Trace:
+#0 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\lib\Cake\Error\ErrorHandler.php(205): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\Users\\Miaw\\D...', 41)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\Users\\Miaw\\D...', 41, Array)
+#2 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\Users\\Miaw\\D...', 41, Array)
+#3 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-12-21 05:31:39 Error: [MissingControllerException] Controller class UploadsController could not be found.
+Exception Attributes: array (
+  'class' => 'UploadsController',
+  'plugin' => NULL,
+)
+Request URL: /benjamin_pelchat-tp2/uploads/capture1/png
+Stack Trace:
+#0 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-21 05:34:08 Error: Fatal Error (4): syntax error, unexpected '<' in [C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\app\View\Employes\view.ctp, line 41]
+2014-12-21 05:34:08 Error: [FatalErrorException] syntax error, unexpected '<'
+Request URL: /benjamin_pelchat-tp2/fra/employes/view/7
+Stack Trace:
+#0 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\lib\Cake\Error\ErrorHandler.php(205): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\Users\\Miaw\\D...', 41)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\Users\\Miaw\\D...', 41, Array)
+#2 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\Users\\Miaw\\D...', 41, Array)
+#3 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-12-21 05:34:10 Error: Fatal Error (4): syntax error, unexpected '<' in [C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\app\View\Employes\view.ctp, line 41]
+2014-12-21 05:34:10 Error: [FatalErrorException] syntax error, unexpected '<'
+Request URL: /benjamin_pelchat-tp2/fra/employes/view/7
+Stack Trace:
+#0 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\lib\Cake\Error\ErrorHandler.php(205): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\Users\\Miaw\\D...', 41)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\Users\\Miaw\\D...', 41, Array)
+#2 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\Users\\Miaw\\D...', 41, Array)
+#3 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-12-21 05:34:10 Error: Fatal Error (4): syntax error, unexpected '<' in [C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\app\View\Employes\view.ctp, line 41]
+2014-12-21 05:34:10 Error: [FatalErrorException] syntax error, unexpected '<'
+Request URL: /benjamin_pelchat-tp2/fra/employes/view/7
+Stack Trace:
+#0 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\lib\Cake\Error\ErrorHandler.php(205): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\Users\\Miaw\\D...', 41)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\Users\\Miaw\\D...', 41, Array)
+#2 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\Users\\Miaw\\D...', 41, Array)
+#3 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-12-21 05:34:10 Error: Fatal Error (4): syntax error, unexpected '<' in [C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\app\View\Employes\view.ctp, line 41]
+2014-12-21 05:34:10 Error: [FatalErrorException] syntax error, unexpected '<'
+Request URL: /benjamin_pelchat-tp2/fra/employes/view/7
+Stack Trace:
+#0 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\lib\Cake\Error\ErrorHandler.php(205): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\Users\\Miaw\\D...', 41)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\Users\\Miaw\\D...', 41, Array)
+#2 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\Users\\Miaw\\D...', 41, Array)
+#3 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-12-21 05:36:13 Error: [NotFoundException] Employé invalide
+Request URL: /benjamin_pelchat-tp2/fra/employes/view/images/
+Stack Trace:
+#0 [internal function]: EmployesController->view('images')
+#1 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(EmployesController), Array)
+#2 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#3 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(EmployesController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-12-21 05:36:46 Error: [NotFoundException] Employé invalide
+Request URL: /benjamin_pelchat-tp2/fra/employes/view/images/
+Stack Trace:
+#0 [internal function]: EmployesController->view('images')
+#1 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(EmployesController), Array)
+#2 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#3 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(EmployesController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-12-21 05:36:47 Error: [NotFoundException] Employé invalide
+Request URL: /benjamin_pelchat-tp2/fra/employes/view/images/
+Stack Trace:
+#0 [internal function]: EmployesController->view('images')
+#1 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(EmployesController), Array)
+#2 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#3 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(EmployesController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-12-21 05:46:26 Error: [NotFoundException] Employé invalide
+Request URL: /benjamin_pelchat-tp2/fra/employes/view/uploads/Koala.jpg
+Stack Trace:
+#0 [internal function]: EmployesController->view('uploads', 'Koala.jpg')
+#1 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(EmployesController), Array)
+#2 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#3 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(EmployesController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-12-21 05:49:34 Error: [NotFoundException] Employé invalide
+Request URL: /benjamin_pelchat-tp2/fra/employes/view/uploads/Koala.jpg
+Stack Trace:
+#0 [internal function]: EmployesController->view('uploads', 'Koala.jpg')
+#1 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(EmployesController), Array)
+#2 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#3 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(EmployesController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-12-21 05:50:19 Error: [NotFoundException] Employé invalide
+Request URL: /benjamin_pelchat-tp2/fra/employes/view/uploads/Koala.jpg
+Stack Trace:
+#0 [internal function]: EmployesController->view('uploads', 'Koala.jpg')
+#1 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(EmployesController), Array)
+#2 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#3 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(EmployesController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-12-21 05:51:45 Error: [NotFoundException] Employé invalide
+Request URL: /benjamin_pelchat-tp2/fra/employes/view/uploads/Koala.jpg
+Stack Trace:
+#0 [internal function]: EmployesController->view('uploads', 'Koala.jpg')
+#1 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(EmployesController), Array)
+#2 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#3 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(EmployesController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-12-21 05:51:47 Error: [NotFoundException] Employé invalide
+Request URL: /benjamin_pelchat-tp2/fra/employes/view/uploads/Koala.jpg
+Stack Trace:
+#0 [internal function]: EmployesController->view('uploads', 'Koala.jpg')
+#1 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(EmployesController), Array)
+#2 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#3 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(EmployesController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-12-21 05:54:11 Error: [NotFoundException] Employé invalide
+Request URL: /benjamin_pelchat-tp2/fra/employes/view/C:/Users/Miaw/Desktop/UniServerZ/www/benjamin_pelchat-tp2/app/webrootuploads/Koala.jpg
+Stack Trace:
+#0 [internal function]: EmployesController->view('Users', 'Miaw', 'Desktop', 'UniServerZ', 'www', 'benjamin_pelcha...', 'app', 'webrootuploads', 'Koala.jpg')
+#1 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(EmployesController), Array)
+#2 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#3 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(EmployesController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-12-21 05:54:20 Error: [NotFoundException] Employé invalide
+Request URL: /benjamin_pelchat-tp2/fra/employes/view/C:/Users/Miaw/Desktop/UniServerZ/www/benjamin_pelchat-tp2/app/webrootuploads/Koala.jpg
+Stack Trace:
+#0 [internal function]: EmployesController->view('Users', 'Miaw', 'Desktop', 'UniServerZ', 'www', 'benjamin_pelcha...', 'app', 'webrootuploads', 'Koala.jpg')
+#1 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(EmployesController), Array)
+#2 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#3 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(EmployesController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-12-21 05:54:56 Error: [NotFoundException] Employé invalide
+Request URL: /benjamin_pelchat-tp2/fra/employes/view/C:/Users/Miaw/Desktop/UniServerZ/www/benjamin_pelchat-tp2/app/webroot/uploads/Koala.jpg
+Stack Trace:
+#0 [internal function]: EmployesController->view('Users', 'Miaw', 'Desktop', 'UniServerZ', 'www', 'benjamin_pelcha...', 'app', 'webroot', 'uploads', 'Koala.jpg')
+#1 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(EmployesController), Array)
+#2 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#3 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(EmployesController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-12-21 05:55:32 Error: [NotFoundException] Employé invalide
+Request URL: /benjamin_pelchat-tp2/fra/employes/view/C:/Users/Miaw/Desktop/UniServerZ/www/benjamin_pelchat-tp2/app/webroot/uploads/Koala.jpg
+Stack Trace:
+#0 [internal function]: EmployesController->view('Users', 'Miaw', 'Desktop', 'UniServerZ', 'www', 'benjamin_pelcha...', 'app', 'webroot', 'uploads', 'Koala.jpg')
+#1 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(EmployesController), Array)
+#2 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#3 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(EmployesController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-12-21 05:55:33 Error: [NotFoundException] Employé invalide
+Request URL: /benjamin_pelchat-tp2/fra/employes/view/C:/Users/Miaw/Desktop/UniServerZ/www/benjamin_pelchat-tp2/app/webroot/uploads/Koala.jpg
+Stack Trace:
+#0 [internal function]: EmployesController->view('Users', 'Miaw', 'Desktop', 'UniServerZ', 'www', 'benjamin_pelcha...', 'app', 'webroot', 'uploads', 'Koala.jpg')
+#1 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(EmployesController), Array)
+#2 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#3 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(EmployesController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-12-21 05:59:36 Error: [MissingControllerException] Controller class UploadsController could not be found.
+Exception Attributes: array (
+  'class' => 'UploadsController',
+  'plugin' => NULL,
+)
+Request URL: /benjamin_pelchat-tp2/fra/uploads/Capture.PNG
+Stack Trace:
+#0 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-21 05:59:39 Error: [MissingControllerException] Controller class UploadsController could not be found.
+Exception Attributes: array (
+  'class' => 'UploadsController',
+  'plugin' => NULL,
+)
+Request URL: /benjamin_pelchat-tp2/eng/uploads/Capture.PNG
+Stack Trace:
+#0 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-21 06:40:31 Error: [MissingControllerException] Controller class UploadsController could not be found.
+Exception Attributes: array (
+  'class' => 'UploadsController',
+  'plugin' => NULL,
+)
+Request URL: /benjamin_pelchat-tp2/fra/uploads/image12.PNG
+Stack Trace:
+#0 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
