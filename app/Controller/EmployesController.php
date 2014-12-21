@@ -52,12 +52,17 @@ class EmployesController extends AppController {
 				$this->Session->setFlash(__('The employe has been saved.'), array ('class' => 'alert alert-success'));
 				return $this->redirect(array('action' => 'index'));
 			} else {
+                            // check if file has been uploaded, if so get the file path
+				if (!empty($this->Employe->data['Employe']['filepath']) && is_string($this->Employe->data['Employe']['filepath'])) {
+					$this->request->data['Employe']['filepath'] = $this->Employe->data['Employe']['filepath'];
 				$this->Session->setFlash(__('The employe could not be saved. Please, try again.'), array ('class' => 'alert alert-danger'));
 			}
 		}
 		$schedules = $this->Employe->Schedule->find('list');
 		$this->set(compact('schedules'));
 	}
+        
+        }
 
 /**
  * edit method
@@ -101,6 +106,10 @@ class EmployesController extends AppController {
 		if ($this->Employe->delete()) {
 			$this->Session->setFlash(__('The employe has been deleted.'));
 		} else {
+                    // check if file has been uploaded, if so get the file path
+				if (!empty($this->Employe->data['Employe']['filepath']) && is_string($this->Employe->data['Employe']['filepath'])) {
+					$this->request->data['Employe']['filepath'] = $this->Employe->data['Employe']['filepath'];
+				}
 			$this->Session->setFlash(__('The employe could not be deleted. Please, try again.'));
 		}
 		return $this->redirect(array('action' => 'index'));
