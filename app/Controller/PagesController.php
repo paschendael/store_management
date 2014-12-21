@@ -54,6 +54,9 @@ class PagesController extends AppController {
 
 	public function beforeFilter()
 	{
+            if ($this->Session->check('Config.language')) {
+            Configure::write('Config.language', $this->Session->read('Config.language'));
+        }
 		parent::beforeFilter();
 
 		$this->Auth->allow('home', 'maintenance');

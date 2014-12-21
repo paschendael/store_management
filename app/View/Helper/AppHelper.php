@@ -31,4 +31,12 @@ App::uses('Helper', 'View');
  * @package       app.View.Helper
  */
 class AppHelper extends Helper {
+  public function url($url = null, $full = true) {
+    if (!isset($url['lang']) && isset($this->request->params['lang']) && is_array($url)) {
+      $url['lang'] = $this->request->params['lang'];
+    }
+    return parent::url($url, $full);
+  }
+ 
 }
+?>

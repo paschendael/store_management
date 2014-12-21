@@ -25,15 +25,25 @@
  * its action called 'display', and we pass a param to select the view file
  * to use (in this case, /app/View/Pages/home.ctp)...
  */
+Router::connect(
+    '/:lang/:controller/:action/:id',
+    array(),
+    array('id' => '[0-9]+', 'lang' => '[a-z]{3}')
+);
 	if (Configure::read('Application.status')) {
 	   Router::connect('/', array('controller' => 'users', 'action' => 'login'));
 	}
+        
+        
+         Router::connect('/:lang/:controller', array(), array('lang' => '[a-z]{2}'));
+    Router::connect('/:lang/:controller/:action', array(), array('lang' => '[a-z]{2}'));
+    Router::connect('/:lang/:controller/:action/*', array(), array('lang' => '[a-z]{2}'));
 	
 	Router::connect('/:language/:controller/:action/*',
 
                        array(),
 
-                       array('language' => '[a-z]{3}'));
+                      array('language' => '[a-z]{3}'));
 
 	Router::connect('/home', array('controller' => 'employes', 'action' => 'index'));
 

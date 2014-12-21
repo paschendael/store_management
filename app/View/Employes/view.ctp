@@ -36,6 +36,13 @@
 			<?php echo h($employe['Employe']['other_details']); ?>
 			&nbsp;
 		</dd>
+                <dt><?php echo __('filename'); ?></dt>
+		<dd>
+                    
+                    <img src='../../../<?php echo h($employe['Employe']['filename']); ?>'  />
+               
+			&nbsp;
+		</dd>
 	</dl>
 </div>
 <div class="actions">

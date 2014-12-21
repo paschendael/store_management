@@ -14,6 +14,14 @@ class EmployesController extends AppController {
  * @var array
  */
 	public $components = array('Paginator');
+        
+        public function beforeFilter()
+	{
+            if ($this->Session->check('Config.language')) {
+            Configure::write('Config.language', $this->Session->read('Config.language'));
+            }
+
+	}
 
 /**
  * index method
@@ -55,6 +63,7 @@ class EmployesController extends AppController {
                             // check if file has been uploaded, if so get the file path
 				if (!empty($this->Employe->data['Employe']['filepath']) && is_string($this->Employe->data['Employe']['filepath'])) {
 					$this->request->data['Employe']['filepath'] = $this->Employe->data['Employe']['filepath'];
+                                }
 				$this->Session->setFlash(__('The employe could not be saved. Please, try again.'), array ('class' => 'alert alert-danger'));
 			}
 		}
@@ -62,7 +71,7 @@ class EmployesController extends AppController {
 		$this->set(compact('schedules'));
 	}
         
-        }
+        
 
 /**
  * edit method
