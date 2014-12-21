@@ -1,0 +1,4 @@
+Pour importer la bd et la rendre fonctionnelle, simplement aller dans la page principale de phpmyadmin et creer une nouvelle db nommee "horraire_employe"
+ensuite clicker sur import et selectionner le fichier horraire_employe.sql qui se situe a la racine du site.Ensuite aller dans le fichier app/Config/database.php
+et changer le mot de passe de la connection "default" pour le meme mot de passe que votre base de donnée sql.
+
