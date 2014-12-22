@@ -3199,3 +3199,209 @@ Request URL: /benjamin_pelchat-tp2/css/lgo.css
 Stack Trace:
 #0 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
+2014-12-22 01:43:12 Error: [MissingViewException] View file "C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\app\View\Users\info.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'C:\\Users\\Miaw\\Desktop\\UniServerZ\\www\\benjamin_pelchat-tp2\\app\\View\\Users\\info.ctp',
+)
+Request URL: /benjamin_pelchat-tp2/users/info
+Stack Trace:
+#0 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\lib\Cake\View\View.php(459): View->_getViewFileName('/Users/info')
+#1 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\lib\Cake\Controller\Controller.php(952): View->render('/Users/info', NULL)
+#2 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\app\Controller\UsersController.php(323): Controller->render('/Users/info')
+#3 [internal function]: UsersController->info()
+#4 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#5 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#6 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#7 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2014-12-22 01:43:13 Error: [MissingActionException] Action UsersController::css() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'css',
+)
+Request URL: /benjamin_pelchat-tp2/users/css/lgo.css
+Stack Trace:
+#0 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-12-22 01:43:14 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /benjamin_pelchat-tp2/css/lgo.css
+Stack Trace:
+#0 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-22 01:43:15 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /benjamin_pelchat-tp2/css/lgo.css
+Stack Trace:
+#0 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-22 01:50:32 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /benjamin_pelchat-tp2/css/lgo.css
+Stack Trace:
+#0 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-22 01:50:33 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /benjamin_pelchat-tp2/css/lgo.css
+Stack Trace:
+#0 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-22 01:51:04 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /benjamin_pelchat-tp2/css/lgo.css
+Stack Trace:
+#0 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-22 01:51:37 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /benjamin_pelchat-tp2/css/lgo.css
+Stack Trace:
+#0 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-22 01:51:56 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /benjamin_pelchat-tp2/css/lgo.css
+Stack Trace:
+#0 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-22 01:52:07 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /benjamin_pelchat-tp2/css/lgo.css
+Stack Trace:
+#0 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-22 01:52:41 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /benjamin_pelchat-tp2/css/lgo.css
+Stack Trace:
+#0 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-22 01:52:59 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /benjamin_pelchat-tp2/css/lgo.css
+Stack Trace:
+#0 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-22 01:53:01 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /benjamin_pelchat-tp2/css/lgo.css
+Stack Trace:
+#0 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-22 01:53:08 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /benjamin_pelchat-tp2/css/lgo.css
+Stack Trace:
+#0 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-22 01:53:19 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /benjamin_pelchat-tp2/css/lgo.css
+Stack Trace:
+#0 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-22 01:54:24 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /benjamin_pelchat-tp2/css/lgo.css
+Stack Trace:
+#0 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-22 01:54:25 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /benjamin_pelchat-tp2/css/lgo.css
+Stack Trace:
+#0 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-22 01:54:26 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /benjamin_pelchat-tp2/css/lgo.css
+Stack Trace:
+#0 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-22 01:55:08 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /benjamin_pelchat-tp2/css/lgo.css
+Stack Trace:
+#0 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-22 01:55:28 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /benjamin_pelchat-tp2/css/lgo.css
+Stack Trace:
+#0 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-22 01:58:54 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /benjamin_pelchat-tp2/css/lgo.css
+Stack Trace:
+#0 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-22 01:59:08 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /benjamin_pelchat-tp2/css/lgo.css
+Stack Trace:
+#0 C:\Users\Miaw\Desktop\UniServerZ\www\benjamin_pelchat-tp2\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
